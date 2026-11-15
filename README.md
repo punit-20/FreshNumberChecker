@@ -155,7 +155,7 @@ To protect intellectual property and enterprise trade secrets, core algorithms a
 ```
 
 > [!CAUTION]
-> **Confidentiality & Trade Secrets:** The internal reverse-engineered protocols, authorization tokens, proprietary heuristics, and gateway scripts are closed-source and protected under Section 65 of the Information Technology Act, 2000 and the Indian Copyright Act, 1957. Unauthorized replication attempts are legally actionable.
+> **Confidentiality & Trade Secrets:** The internal verification protocols, secure authorization systems, proprietary heuristics, and cloud gateway engines are closed-source and protected under Section 65 of the Information Technology Act, 2000 and the Indian Copyright Act, 1957. Unauthorized replication, sniffing, or cloning attempts are strictly actionable under law.
 
 ---
 
@@ -245,7 +245,7 @@ For the complete SEO strategy, meta tags, and competitor displacement tactics, r
 
 ## ⚖️ Legal Trademark Notice
 
-*Fresh NumChecker™ and the NumChecker logo are proprietary marks. All third-party trademarks, company names, platform logos (including Bella Vita, Foxtale, Myntra, Reliance Jio, Bharti Airtel, Vodafone Idea, BSNL, etc.) referenced herein are the properties of their respective owners. Their mention is strictly for nominative identification and comparative technical compatibility purposes under Indian law and does not imply endorsement, affiliation, sponsorship, or partnership.*
+*Fresh NumChecker™ and the NumChecker logo are proprietary marks. All third-party trademarks, company names, platform logos, and telecommunication provider marks (including licensed service providers such as Reliance Jio, Bharti Airtel, Vodafone Idea, BSNL, etc.) referenced herein are the properties of their respective owners. Their mention is strictly for nominative identification and comparative technical compatibility purposes under Indian law and does not imply endorsement, affiliation, sponsorship, or partnership.*
 
 <br/>
 

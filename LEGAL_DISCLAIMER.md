@@ -52,7 +52,7 @@
 ---
 
 ## 3. NOMINATIVE FAIR USE & TRADEMARK NON-AFFILIATION
-3.1. Any trademarks, service marks, trade names, trade dress, product names, company names, or logos referenced or displayed within this repository, system menus, documentation, or bot interfaces—including but not limited to **Reliance Jio, Bharti Airtel, Vodafone Idea (Vi), Bharat Sanchar Nigam Limited (BSNL), Myntra, Bella Vita Organic, Foxtale, Telegram**, or any other commercial platforms—are the exclusive property of their respective trademark holders.  
+3.1. Any trademarks, service marks, trade names, trade dress, product names, company names, or logos referenced or displayed within this repository, system menus, documentation, or bot interfaces—including but not limited to telecommunications operators (**Reliance Jio, Bharti Airtel, Vodafone Idea (Vi), Bharat Sanchar Nigam Limited (BSNL)**), messaging applications (**Telegram**), or third-party digital platforms—are the exclusive property of their respective trademark holders.  
 3.2. **No Endorsement or Affiliation.** The use or mention of these names, logos, or brand marks is strictly for **Nominative Fair Use** to accurately describe system compatibility, telecom circle allocation, or technical gateway interfaces. Such mention does not imply, suggest, or constitute:
 - Any affiliation, partnership, sponsorship, or joint venture between Fresh NumChecker and said trademark owners;
 - Any endorsement, approval, or licensing of Fresh NumChecker by said entities;

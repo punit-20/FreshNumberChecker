@@ -16,7 +16,7 @@ NOTHING IN THIS REPOSITORY, EXPLICIT OR IMPLIED, CONSTITUTES AN OPEN-SOURCE GRAN
 2. PROHIBITED CONDUCT AND RESTRICTIONS
 ================================================================================
 You (the "User", "Licensee", or "Visitor") agree strictly NOT to, directly or indirectly:
-(a) Decompile, disassemble, reverse engineer, decrypt, extract, decode, or attempt to derive the underlying source code, proprietary algorithms, verification heuristics, internal network endpoints, scraper logic, tokens, or encryption keys of the Licensor's backend engines;
+(a) Decompile, disassemble, reverse engineer, decrypt, extract, decode, or attempt to derive the underlying source code, proprietary algorithms, verification heuristics, internal network endpoints, proprietary logic, tokens, or encryption keys of the Licensor's backend engines;
 (b) Copy, duplicate, clone, reproduce, republish, mirror, frame, download, transmit, distribute, sell, lease, sublicense, or commercially exploit any part of the system, interfaces, or bot configurations without prior written consent from the Licensor;
 (c) Utilize any automated scripts, bots, spiders, crawlers, or scrapers to harvest, extract, or index the materials, API endpoints, or database structures;
 (d) Create derivative works, competing services, clone bots, or commercial software directly modeled on the technical architecture or business logic of Fresh NumChecker;

@@ -19,7 +19,7 @@
 
 > [!CAUTION]
 > **CLOSED-SOURCE CONFIDENTIAL TRADE SECRET NOTICE:**  
-> All underlying heuristics, reverse-engineered gateway protocols, token architectures, and database algorithms powering Fresh NumChecker are protected under the **Indian Copyright Act, 1957**, the **Information Technology Act, 2000**, and international trade secret conventions. Unauthorized decompilation, sniffing, mirroring, or cloning is strictly actionable under civil and criminal law.
+> All underlying heuristics, proprietary gateway protocols, token architectures, and database algorithms powering Fresh NumChecker are protected under the **Indian Copyright Act, 1957**, the **Information Technology Act, 2000**, and international trade secret conventions. Unauthorized decompilation, sniffing, mirroring, or cloning is strictly actionable under civil and criminal law.
 
 ---
 
@@ -45,11 +45,11 @@ graph TD
     end
 
     subgraph Hardware-Isolated Security Barrier
-        C{DDoS & Reverse-Engineering Firewall}
+        C{DDoS & Anti-Tampering Security Shield}
     end
 
     subgraph Closed-Source Encrypted Enclave
-        D[🔒 Zero-OTP Reverse-Engineered Gateways]
+        D[🔒 Zero-OTP High-Speed Verification Gateways]
         E[🔒 Proprietary Carrier & Circle Matrix]
         F[🔒 High-Speed Concurrency Dispatcher]
         G[🔒 Private Session Tokens & Keys]
@@ -72,7 +72,7 @@ graph TD
 ---
 
 ## 1. INTELLECTUAL PROPERTY & TRADE SECRETS DECLARATION
-The architecture, operational methods, heuristics, bot workflows, zero-OTP reverse-engineered validation mechanisms, and backend orchestration logic powering **Fresh NumChecker** are the proprietary intellectual property and confidential trade secrets of the development team (the "Owners").
+The architecture, operational methods, heuristics, bot workflows, zero-OTP proprietary validation mechanisms, and backend orchestration logic powering **Fresh NumChecker** are the proprietary intellectual property and confidential trade secrets of the development team (the "Owners").
 
 ### 1.1. Proprietary Assets Covered:
 - **Zero-OTP Account Detection Heuristics:** The mathematical algorithms and protocol workflows that ascertain number availability without transmitting SMS codes;
@@ -89,7 +89,7 @@ To maintain competitive advantage, prevent malicious weaponization, and protect 
 ### 2.1. Absolute Prohibition of Reverse Engineering
 You may not:
 - Attempt to decompile, disassemble, extract, debug, sniff, or inspect the backend binary or bytecode;
-- Deploy network packet interceptors (e.g., Wireshark, Burp Suite, Fiddler, Charles Proxy) to capture private communication channels or reverse-engineer upstream provider endpoints;
+- Deploy network packet interceptors (e.g., Wireshark, Burp Suite, Fiddler, Charles Proxy) to capture private communication channels or intercept upstream communication protocols;
 - Replicate, clone, or create counterfeit bots or services that mimic the internal logic or presentation of Fresh NumChecker;
 - Harvest, scrape, or publish our private API endpoints or tokens.
 

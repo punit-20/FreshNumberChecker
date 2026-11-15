@@ -78,7 +78,7 @@ You unconditionally covenant and agree that you will **NOT**, under any circumst
 - Submit mobile numbers to the Platform without having a legitimate, lawful interest or valid business reason for verifying data hygiene;
 - Use the Platform to facilitate Unsolicited Commercial Communications (UCC), spam SMS blasts, predatory telemarketing, or deceptive phishing campaigns;
 - Engage in automated scraping, denial of service (DoS/DDoS) attacks, protocol reverse-engineering, or penetration testing against the Platform's cloud nodes;
-- Attempt to harvest, clone, dump, or intercept backend authorization headers, API gateways, internal database structures, or reverse-engineered gateway algorithms;
+- Attempt to harvest, clone, dump, or intercept backend authorization headers, API gateways, internal database structures, or proprietary gateway algorithms;
 - Resell, lease, sublicense, syndicate, or white-label the Service without the express, signed commercial authorization of the Operators;
 - Utilize the Service in violation of any Indian, federal, state, local, or international statutory enactments.
 
