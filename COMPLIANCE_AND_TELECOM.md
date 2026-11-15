@@ -1,6 +1,12 @@
+<a name="top"></a>
+
 # <div align="center">📡 TELECOMMUNICATIONS & STATUTORY REGULATORY DIRECTIVE</div>
 
 <div align="center">
+
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=16&duration=3000&pause=1000&color=FF9933&center=true&vCenter=true&width=650&height=35&lines=Telecom+Regulatory+Authority+of+India+(TRAI)+Compliance;Department+of+Telecommunications+(DoT)+National+Numbering+Plan;TCCCPR+2018+Anti-Spam+Governance" alt="Telecom Compliance Typing" />
+</p>
 
 [![Regulatory Authority](https://img.shields.io/badge/Authority-TRAI_%7C_DoT_(India)-FF9933?style=for-the-badge&logo=target&logoColor=white)](https://trai.gov.in)
 [![Numbering Framework](https://img.shields.io/badge/Standard-National_Numbering_Plan_(NNP)-7928CA?style=for-the-badge&logo=fastapi&logoColor=white)](https://dot.gov.in)
@@ -49,6 +55,53 @@ flowchart TD
     style C fill:#2e1e1e,stroke:#FF0055,stroke-width:2px,color:#fff
     style G fill:#1e1e2e,stroke:#00FF66,stroke-width:2px,color:#fff
 ```
+
+---
+
+## 🗺️ National Telecom Circle Coverage Grid (All 22 LSAs)
+
+<table>
+  <tr>
+    <th>Zone</th>
+    <th>Licensed Service Areas (Circles) Covered</th>
+    <th>Primary Operators Mapped</th>
+  </tr>
+  <tr>
+    <td><b>Metro</b></td>
+    <td>Delhi NCR (DL), Mumbai (MU), Kolkata (KO)</td>
+    <td>Reliance Jio, Bharti Airtel, Vi, MTNL</td>
+  </tr>
+  <tr>
+    <td><b>North Zone</b></td>
+    <td>Punjab (PB), Haryana (HR), UP West (UW), UP East (UE), Rajasthan (RJ), Jammu & Kashmir (JK), Himachal Pradesh (HP)</td>
+    <td>Reliance Jio, Bharti Airtel, Vi, BSNL</td>
+  </tr>
+  <tr>
+    <td><b>South Zone</b></td>
+    <td>Karnataka (KA), Tamil Nadu & Chennai (TN), Andhra Pradesh & Telangana (AP), Kerala (KL)</td>
+    <td>Reliance Jio, Bharti Airtel, Vi, BSNL</td>
+  </tr>
+  <tr>
+    <td><b>East & West</b></td>
+    <td>Maharashtra & Goa (MH), Gujarat (GJ), Madhya Pradesh & CG (MP), Bihar & Jharkhand (BH), West Bengal (WB), Odisha (OR), Assam (AS), North East (NE)</td>
+    <td>Reliance Jio, Bharti Airtel, Vi, BSNL</td>
+  </tr>
+</table>
+
+---
+
+## 📑 Table of Contents
+
+1. [Regulatory Context & Statement of Purpose](#1-regulatory-context--statement-of-purpose)
+2. [Department of Telecommunications (DoT) Alignment](#2-department-of-telecommunications-dot-alignment)
+   - [2.1 National Numbering Plan (NNP)](#21-the-national-numbering-plan-nnp)
+   - [2.2 Passive In-Memory Syntax Checking](#22-passive-in-memory-syntax-checking)
+3. [TRAI & TCCCPR 2018 Compliance Directives](#3-trai--tcccpr-2018-compliance)
+   - [3.1 Commercial Communications Customer Preference](#31-telecom-commercial-communications-customer-preference-regulations-2018)
+   - [3.2 NDNC & DND Scrubbing Obligations](#32-national-do-not-call-ndnc--dnd-scrubbing-notice)
+4. [The Telecommunications Act, 2023 & Intermediary Role](#4-the-telecommunications-act-2023--intermediary-obligations)
+5. [IT Act, 2000 & Cybersecurity Safeguards](#5-information-technology-act-2000--cybersecurity-alignment)
+6. [Audit Trails & Law Enforcement Cooperation](#6-audit-trail-and-law-enforcement-cooperation)
 
 ---
 
@@ -120,6 +173,10 @@ The Operators maintain a cooperative stance toward Indian statutory law enforcem
 <br/>
 
 <div align="center">
+
+<a href="#top">⬆ Back to Top</a>
+
+<br/><br/>
 
 **© 2026 Fresh NumChecker Inc. All Rights Reserved.**  
 *Strict Compliance with TRAI, DoT and Indian Telecommunications Statutes.*

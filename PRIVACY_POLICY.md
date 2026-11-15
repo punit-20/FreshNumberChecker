@@ -1,6 +1,12 @@
+<a name="top"></a>
+
 # <div align="center">🔒 PRIVACY POLICY & DATA GOVERNANCE DIRECTIVE</div>
 
 <div align="center">
+
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=16&duration=3000&pause=1000&color=00FF66&center=true&vCenter=true&width=650&height=35&lines=Digital+Personal+Data+Protection+Act+2023+Compliance;Zero-Log+Ephemeral+RAM+Processing+Architecture;Zero+Phone+Numbers+Retained+or+Monetized" alt="Privacy Shield Typing" />
+</p>
 
 [![Statutory Framework](https://img.shields.io/badge/Statute-DPDP_Act_2023_(India)-00FF66?style=for-the-badge&logo=shield&logoColor=black)](https://india.gov.in)
 [![Data Retention](https://img.shields.io/badge/Data_Retention-0_Seconds_(Ephemeral_RAM)-7928CA?style=for-the-badge&logo=ram&logoColor=white)](./PRIVACY_POLICY.md#3-categories-of-data-processed)
@@ -50,6 +56,21 @@ flowchart TD
     style C fill:#1e1e2e,stroke:#00FF66,stroke-width:2px,color:#fff
     style G fill:#2e1e1e,stroke:#FF0055,stroke-width:2px,color:#fff
 ```
+
+---
+
+## 📑 Table of Contents
+
+1. [Introduction & Statement of Commitment](#1-introduction--statement-of-commitment)
+2. [Statutory Alignment with DPDP Act, 2023](#2-statutory-alignment-with-the-dpdp-act-2023)
+3. [Categories of Data Processed](#3-categories-of-data-processed)
+4. [What We Do Not Collect (Sensitive PII)](#4-what-we-do-not-collect-sensitive-personal-data)
+5. [Third-Party Disclosures & Non-Commercialization](#5-third-party-disclosures--non-commercialization)
+6. [Data Security & Technical Safeguards](#6-data-security-and-technical-safeguards)
+7. [User Rights under the DPDP Act, 2023](#7-user-rights-under-the-dpdp-act-2023)
+8. [Children's Privacy Protection](#8-childrens-privacy)
+9. [Amendments & Governance Updates](#9-changes-to-this-privacy-policy)
+10. [Statutory Grievance Redressal Officer](#10-grievance-redressal-officer)
 
 ---
 
@@ -114,7 +135,7 @@ Fresh NumChecker specifically **DOES NOT** collect, process, demand, or maintain
 ## 5. THIRD-PARTY DISCLOSURES & NON-COMMERCIALIZATION
 5.1. **Zero Data Brokering.** We do not sell, rent, lease, syndicate, license, or barter any personal data, telemetry, or telephone numbers to data brokers, ad networks, insurance agencies, or telemarketing aggregators.  
 5.2. **Service Providers.** We utilize reputable enterprise infrastructure providers (such as cloud virtual private servers and Telegram API infrastructure) strictly as technical data processors bound by industry-standard confidentiality obligations.  
-5.3. **Lawful Disclosures.** We will disclose operational telemetry only if strictly compelled by a lawful, valid order issued by a competent court of law or authorized Indian statutory investigative agency under the provisions of the **Code of Criminal Procedure, 1973 / Bharatiya Nagarik Suraksha Sanhita, 2023** or **Section 69 of the Information Technology Act, 2000**.
+5.3. **Lawful Disclosures.** We will disclose operational telemetry only if strictly compelled by a lawful, valid order issued by a competent court of law or authorized Indian statutory investigative agency under the provisions of the **Code of Criminal Procedure, 1973 / Section 94 of Bharatiya Nagarik Suraksha Sanhita, 2023** or **Section 69 of the Information Technology Act, 2000**.
 
 ---
 
@@ -128,13 +149,33 @@ We maintain state-of-the-art technological and organizational measures to protec
 ---
 
 ## 7. USER RIGHTS UNDER THE DPDP ACT, 2023
-As a user, you possess fundamental rights recognized under Section 11, Section 12, and Section 13 of the Digital Personal Data Protection Act, 2023:
-1. **Right to Access Information:** You have the right to request a summary of the personal data (e.g., your Telegram ID and wallet balance) maintained in our active ledger.
-2. **Right to Correction & Erasure:** You may request the immediate deletion of your Telegram ID and associated bot account records at any time.
-3. **Right to Grievance Redressal:** You have the right to an expedited, transparent resolution of any privacy concerns through our designated Grievance Desk.
-4. **Right to Nominate:** You may nominate an individual to exercise your rights in the event of incapacity.
 
-To exercise any of these statutory rights, submit an official request through our bot ticket interface using the `/help` command.
+As a Data Principal under the Digital Personal Data Protection Act, 2023, you enjoy statutory rights:
+
+<table>
+  <tr>
+    <td width="50%">
+      <b>1. Right to Access Information</b><br/>
+      Request an overview of all account identifiers and transactional balances linked to your active Telegram ID.
+    </td>
+    <td width="50%">
+      <b>2. Right to Correction & Erasure</b><br/>
+      Request the immediate, permanent deletion of your Telegram ID and wallet history from our active ledger.
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
+      <b>3. Right to Grievance Redressal</b><br/>
+      Access rapid grievance redressal through our designated officer within statutory deadlines (48h acknowledgment).
+    </td>
+    <td width="50%">
+      <b>4. Right to Nominate</b><br/>
+      Nominate an authorized representative to exercise data rights in the event of death or incapacity.
+    </td>
+  </tr>
+</table>
+
+To exercise any of these statutory rights, submit an official request through our bot ticket interface using the <kbd>/help</kbd> command.
 
 ---
 
@@ -158,6 +199,10 @@ In accordance with Rule 3(2) of the Information Technology Rules, 2021 and Secti
 <br/>
 
 <div align="center">
+
+<a href="#top">⬆ Back to Top</a>
+
+<br/><br/>
 
 **© 2026 Fresh NumChecker Inc. All Rights Reserved.**  
 *Fully Compliant with the Digital Personal Data Protection Act, 2023 (Republic of India).*

@@ -1,6 +1,12 @@
+<a name="top"></a>
+
 # <div align="center">🚫 ACCEPTABLE USE POLICY & ANTI-ABUSE DIRECTIVE</div>
 
 <div align="center">
+
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=16&duration=3000&pause=1000&color=FF0055&center=true&vCenter=true&width=650&height=35&lines=Acceptable+Use+Policy+%26+Anti-Abuse+Directive;TRAI+TCCCPR+2018+Anti-Spam+Compliance;Strict+Zero-Tolerance+Anti-Reconnaissance+Shield" alt="AUP Typing" />
+</p>
 
 [![Policy Enforcement](https://img.shields.io/badge/Enforcement-Automated_%7C_Zero_Tolerance-red?style=for-the-badge&logo=shield&logoColor=white)](./ACCEPTABLE_USE_POLICY.md)
 [![Regulatory Rule](https://img.shields.io/badge/Regulation-TRAI_TCCCPR_2018-7928CA?style=for-the-badge&logo=target&logoColor=white)](./ACCEPTABLE_USE_POLICY.md#21-unlawful-communications--telemarketing-violations)
@@ -19,7 +25,7 @@
 
 > [!CAUTION]
 > **ZERO TOLERANCE FOR ILLEGAL HARASSMENT, SPAM & SYSTEM EXPLOITATION:**  
-> Any attempt to use Fresh NumChecker for automated robocalls, unsolicited telemarketing, SIM-swap attacks, credential stuffing, scraping, or reverse engineering will result in immediate permanent banning, forfeiture of credits, and referral to cybercrime authorities under the **Information Technology Act, 2000**.
+> Any attempt to use Fresh NumChecker for automated robocalls, unsolicited telemarketing, SIM-swap attacks, credential stuffing, scraping, or unauthorized exploitation will result in immediate permanent banning, forfeiture of credits, and referral to cybercrime authorities under the **Information Technology Act, 2000**.
 
 ---
 
@@ -42,9 +48,23 @@ flowchart LR
     A[Incoming Query Stream] --> B{Heuristic Threat Evaluation}
     B -- Clean Traffic --> C[⚡ Accelerated In-Memory Execution]
     B -- Volumetric Flood --> D[🛡️ IP / Telegram ID Throttle]
-    B -- Reverse Engineering / Exploit --> E[🚨 Permanent Blacklist & Token Revocation]
+    B -- Exploit Attempt --> E[🚨 Permanent Blacklist & Token Revocation]
     E --> F[⚖️ Telemetry Forwarded to CERT-In / Cyber Cell]
 ```
+
+---
+
+## 📑 Table of Contents
+
+1. [Purpose & Applicability](#1-purpose-and-applicability)
+2. [Strictly Prohibited Activities](#2-strictly-prohibited-activities)
+   - [2.1 Unlawful Communications & Telemarketing](#21-unlawful-communications--telemarketing-violations)
+   - [2.2 Cybercrime, Fraud & Identity Attacks](#22-cybercrime-fraud--identity-compromise)
+   - [2.3 System Abuse & Attack Vectors](#23-system-abuse-network-interference--attack-vectors)
+   - [2.4 Intellectual Property Piracy](#24-intellectual-property-theft--commercial-piracy)
+3. [Usage Quotas & Rate Limiting Controls](#3-usage-quotas-and-rate-limiting)
+4. [Investigation, Enforcement & Remedies](#4-investigation-enforcement--remedies)
+5. [Abuse Reporting Desk](#5-reporting-abuse)
 
 ---
 
@@ -78,7 +98,7 @@ You are strictly prohibited from utilizing the Platform, directly or through aut
 - Rapid multi-threading beyond established API thresholds or server safety limits.
 
 ### 2.4. Intellectual Property Theft & Commercial Piracy
-- Reverse engineering, decompiling, disassembling, or sniffing backend network traffic to replicate the zero-OTP verification logic;
+- Decompiling, disassembling, or sniffing backend network traffic to replicate the zero-OTP verification logic;
 - Scraping, crawling, or extracting the proprietary National Numbering Plan database tables or circle resolution matrices;
 - Creating clone bots, repackaging the service under a different name, or reselling unauthorized access without explicit written enterprise licensing;
 - Removing or altering copyright watermarks, legal disclaimers, or promotional headers.
@@ -91,7 +111,7 @@ To preserve system equilibrium and ensure 99.99% availability for all legitimate
 - **Batch Processing:** Allowed strictly through designated `/batch` multi-line channels with automated backoff;
 - **Concurrent Requests:** Automated flood detection will temporarily freeze any account that submits excessive bursts within microsecond intervals.
 
-Attempting to distribute queries across hundreds of disposable fake Telegram accounts to circumvent rate limits will trigger automated permanent subnet blacklisting.
+Attempting to distribute queries across disposable fake Telegram accounts to circumvent rate limits will trigger automated permanent subnet blacklisting.
 
 ---
 
@@ -114,6 +134,10 @@ If you suspect or discover that our platform is being utilized by any bad actor 
 <br/>
 
 <div align="center">
+
+<a href="#top">⬆ Back to Top</a>
+
+<br/><br/>
 
 **© 2026 Fresh NumChecker Inc. All Rights Reserved.**  
 *Strict Anti-Spam & Defensive Telecom Governance.*

@@ -1,6 +1,12 @@
+<a name="top"></a>
+
 # <div align="center">🔐 INTELLECTUAL PROPERTY & SECURITY GOVERNANCE</div>
 
 <div align="center">
+
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=16&duration=3000&pause=1000&color=FF0055&center=true&vCenter=true&width=650&height=35&lines=Intellectual+Property+%26+Trade+Secret+Governance;Section+65+Information+Technology+Act+2000;Closed-Source+Encrypted+Enclave+Architecture" alt="Security Shield Typing" />
+</p>
 
 [![IP Classification](https://img.shields.io/badge/Classification-Proprietary_Trade_Secret-red?style=for-the-badge&logo=lock&logoColor=white)](./SECURITY_AND_IP.md)
 [![Statutory Protection](https://img.shields.io/badge/Protection-Indian_Copyright_Act_1957-7928CA?style=for-the-badge&logo=shield&logoColor=white)](https://copyright.gov.in)
@@ -71,6 +77,19 @@ graph TD
 
 ---
 
+## 📑 Table of Contents
+
+1. [Intellectual Property & Trade Secrets Declaration](#1-intellectual-property--trade-secrets-declaration)
+   - [1.1 Proprietary Assets Covered](#11-proprietary-assets-covered)
+2. [Strict Non-Disclosure & Anti-Cloning Directives](#2-strict-non-disclosure--anti-cloning-policy)
+   - [2.1 Prohibition of Reverse Engineering](#21-absolute-prohibition-of-reverse-engineering)
+   - [2.2 Legal Consequences of Infringement](#22-legal-consequences-of-infringement)
+3. [Responsible Vulnerability Disclosure Policy (VDP)](#3-responsible-vulnerability-disclosure-policy-vdp)
+   - [3.1 Guidelines for Ethical Research](#31-guidelines-for-ethical-research)
+   - [3.2 Vulnerability Submission Protocol](#32-submitting-a-security-finding)
+
+---
+
 ## 1. INTELLECTUAL PROPERTY & TRADE SECRETS DECLARATION
 The architecture, operational methods, heuristics, bot workflows, zero-OTP proprietary validation mechanisms, and backend orchestration logic powering **Fresh NumChecker** are the proprietary intellectual property and confidential trade secrets of the development team (the "Owners").
 
@@ -123,6 +142,10 @@ Qualifying security findings submitted in good faith may be eligible for recogni
 <br/>
 
 <div align="center">
+
+<a href="#top">⬆ Back to Top</a>
+
+<br/><br/>
 
 **© 2026 Fresh NumChecker Inc. All Rights Reserved.**  
 *Closed-Source Proprietary Enclave • Protected Under Indian & International IP Laws.*

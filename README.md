@@ -1,4 +1,7 @@
-# <div align="center">⚡ FRESH NUMCHECKER™ | INDIA'S #1 TELECOM INTELLIGENCE GATEWAY ⚡</div>
+<a name="top"></a>
+
+# <div align="center">⚡ FRESH NUMCHECKER™</div>
+### <div align="center">INDIA'S PREMIER ZERO-OTP TELECOM INTELLIGENCE GATEWAY</div>
 
 <div align="center">
 
@@ -11,21 +14,20 @@
   ╚═╝     ╚═╝  ╚═╝╚══════╝╚══════╝╚═╝  ╚═╝    ╚═╝  ╚═══╝ ╚═════╝ ╚═╝     ╚═╝
 ```
 
-### **The Enterprise Standard for Zero-OTP Mobile Number Hygiene & Telecom Verification**
-*Sub-Second Latency (<350ms) • Full 22 DoT Telecom Circles • Multi-Gateway Matrix • 99.99% Cloud SLA*
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=2800&pause=1000&color=00FF66&center=true&vCenter=true&width=650&height=45&lines=Sub-Second+Passive+Zero-OTP+Verification;DoT+National+Numbering+Plan+Telecom+Filter;All+22+Indian+Telecom+Circles+Supported;DPDP+Act+2023+Zero-Log+Ephemeral+Architecture" alt="Typing SVG" />
+</p>
 
----
-
-[![Status](https://img.shields.io/badge/Gateway_Status-ONLINE_%7C_99.99%25_SLA-00FF66?style=for-the-badge&logo=statuspage&logoColor=black)](https://github.com/punit-20/FreshNumberChecker)
-[![Engine](https://img.shields.io/badge/Core_Engine-DoT_Security_Mesh_v2.4-7928CA?style=for-the-badge&logo=fastapi&logoColor=white)](https://github.com/punit-20/FreshNumberChecker)
+[![Gateway Status](https://img.shields.io/badge/Gateway_Status-ONLINE_%7C_99.99%25_SLA-00FF66?style=for-the-badge&logo=statuspage&logoColor=black)](https://github.com/punit-20/FreshNumberChecker)
+[![Core Engine](https://img.shields.io/badge/Core_Engine-DoT_Security_Mesh_v2.4-7928CA?style=for-the-badge&logo=fastapi&logoColor=white)](https://github.com/punit-20/FreshNumberChecker)
 [![Latency](https://img.shields.io/badge/Response_Speed-%3C350ms_Sub--Second-0070F3?style=for-the-badge&logo=speedtest&logoColor=white)](https://github.com/punit-20/FreshNumberChecker)
-[![Coverage](https://img.shields.io/badge/Telecom_Coverage-All_22_Circles_(India)-FF9933?style=for-the-badge&logo=airtel&logoColor=white)](https://github.com/punit-20/FreshNumberChecker)
-[![Legal](https://img.shields.io/badge/Compliance-DPDP_2023_%7C_TRAI_%7C_IT_Act-FF0080?style=for-the-badge&logo=shield&logoColor=white)](./TERMS_OF_SERVICE.md)
+[![Coverage](https://img.shields.io/badge/Telecom_Coverage-All_22_Circles_(India)-FF9933?style=for-the-badge&logo=target&logoColor=white)](https://github.com/punit-20/FreshNumberChecker)
+[![Compliance](https://img.shields.io/badge/Compliance-DPDP_2023_%7C_TRAI_%7C_IT_Act-FF0080?style=for-the-badge&logo=shield&logoColor=white)](./TERMS_OF_SERVICE.md)
 [![License](https://img.shields.io/badge/License-Proprietary_All_Rights_Reserved-red?style=for-the-badge&logo=lock&logoColor=white)](./LICENSE)
 
 ---
 
-[⚡ Official Bot](#-official-bot-access) • [🔥 NumChecker vs Other Services](#-numchecker-vs-other-services-why-we-are-1) • [🛡️ Legal Architecture](#-enterprise-legal-shield--compliance) • [🚀 Key Features](#-key-capabilities) • [📜 Documentation](#-legal--compliance-directory)
+[⚡ Quick Start](#-quick-start) • [✨ Key Capabilities](#-key-capabilities) • [🏆 Benchmarks vs Other Services](#-benchmarks-numchecker-vs-other-services) • [🧠 System Architecture](#-system-architecture) • [❓ FAQ](#-frequently-asked-questions) • [📜 Legal Shield](#-enterprise-legal-shield--compliance)
 
 ---
 
@@ -35,23 +37,52 @@
 
 > [!NOTE]
 > **Enterprise Data Privacy Notice (DPDP Act, 2023):**  
-> Fresh NumChecker processes submitted mobile numbers **ephemerally inside volatile RAM memory**. Zero phone numbers are stored, indexed, sold, or retained. Queries are purged instantly once verification telemetry is returned.
+> Fresh NumChecker processes submitted mobile numbers **ephemerally inside volatile RAM memory**. Zero phone numbers are stored, indexed, sold, or retained. Queries are permanently purged instantly once verification telemetry is returned.
 
 ---
 
-## 🎯 What is Fresh NumChecker?
+## 💻 Live Terminal Inspection Preview
 
-**Fresh NumChecker™** is India’s premier telecommunication intelligence and real-time number hygiene validation mesh. Designed specifically to eliminate invalid, dead, recycled, and pre-registered numbers without sending intrusive SMS OTPs, Fresh NumChecker empowers businesses, marketers, verification desks, and developers with sub-second accurate intelligence.
+<div align="center">
 
-Built on an asynchronous, multi-threaded carrier filter pipeline, Fresh NumChecker performs instantaneous structural verification, DoT (Department of Telecommunications) compliance checks, circle/operator resolution, and proprietary zero-OTP account status profiling.
+| 🔴 &nbsp; 🟡 &nbsp; 🟢 &nbsp; **fresh-numchecker-gateway — bash — 80×24** |
+| :--- |
+| <pre><code><b>$</b> numchecker-cli probe +919876543210 --stealth
+[✓] Validating DoT National Numbering Plan (NNP)...... <b>PASSED</b> [Active Mobile Series]
+[✓] Resolving Licensed Telecom Operator & Circle...... <b>Bharti Airtel • Delhi NCR</b>
+[✓] Dispatching Multi-Gateway Zero-OTP Ingress........ <b>COMPLETED (<300ms)</b>
+───────────────────────────────────────────────────────────────────────────
+⚡ <b>VERIFICATION TELEMETRY REPORT</b>
+• <b>Target Mobile</b>   : +91 98765 43210
+• <b>Telecom Circle</b>  : Delhi NCR (DL)
+• <b>Carrier Service</b> : Bharti Airtel Limited
+• <b>Verification</b>   : 🟢 <b>FRESH NUMBER (Clean / Unregistered)</b>
+• <b>Intrusion Level</b> : <b>0 SMS Sent • Zero Handset Alert</b>
+• <b>Execution Time</b>  : <b>284ms</b>
+• <b>Data Retention</b>  : <b>0 Seconds (Volatile RAM Purged)</b>
+───────────────────────────────────────────────────────────────────────────</code></pre> |
+
+</div>
 
 ---
 
-## 🏆 NumChecker vs. Other Services (Why We Are #1 in India)
+## ⚡ Performance Metric Scoreboard
 
-Stop settling for outdated, sluggish legacy tools that crash during peak Indian business hours. Here is why top performance teams choose **Fresh NumChecker**:
+```text
+⚡ Response Latency : [████████████████████] <350ms (Sub-second real-time benchmark)
+🎯 Fresh Accuracy   : [███████████████████░] 99.8% (Multi-engine corroboration)
+🛡️ Telecom Circles  : [████████████████████] 22 / 22 Circles (DoT National Coverage)
+🔒 Data Retention   : [░░░░░░░░░░░░░░░░░░░░] 0 Seconds (Zero persistent logs retained)
+⚡ Cloud SLA Uptime : [████████████████████] 99.99% (Fault-tolerant async mesh)
+```
 
-| Dimension | ⚡ **Fresh NumChecker™ (Our Engine)** | 🐌 **Other Services** |
+---
+
+## 🏆 Benchmarks: NumChecker vs. Other Services
+
+Stop settling for outdated, sluggish legacy tools that crash during peak Indian business hours. Here is how **Fresh NumChecker** compares:
+
+| Metric & Dimension | ⚡ **Fresh NumChecker™ (Our Engine)** | 🐌 **Other Services** |
 | :--- | :--- | :--- |
 | **Response Latency** | **⚡ Sub-second (<350ms average)** | ⏳ 3.5s – 12s (Severe lag & timeouts) |
 | **Fresh vs. Old Accuracy** | **🎯 99.8% Multi-Engine Corroboration** | ❌ High false-positive error rates |
@@ -65,7 +96,7 @@ Stop settling for outdated, sluggish legacy tools that crash during peak Indian 
 
 ---
 
-## 🔄 Passive Zero-OTP Probe vs. Traditional Invasive OTP
+## 🔄 Passive Zero-OTP Flow vs. Invasive OTP
 
 ```mermaid
 sequenceDiagram
@@ -94,24 +125,30 @@ sequenceDiagram
 
 ---
 
-## 🔥 Key Capabilities
+## ✨ Key Capabilities
 
-### 1. ⚡ Zero-OTP Passive Probing
-Verify if an Indian mobile number is freshly available or already registered across major national platforms without generating SMS OTP blasts or alerting the recipient. Zero friction, zero regulatory spam flags.
-
-### 2. 🇮🇳 National DoT Telecom Security Layer
-Instantly verifies phone numbers against the official **Department of Telecommunications (DoT)** National Numbering Plan (NNP). Invalid series, test numbers, and spoofed VOIP prefixes are flagged and rejected immediately.
-
-### 3. 📡 Full 22 Telecom Circle Resolution
-Comprehensive mapping across:
-- **Major Operators:** Reliance Jio, Bharti Airtel, Vodafone Idea (Vi), Bharat Sanchar Nigam Limited (BSNL / MTNL).
-- **Circles Covered:** Delhi NCR, Mumbai, Kolkata, Maharashtra & Goa, Gujarat, Andhra Pradesh & Telangana, Karnataka, Tamil Nadu & Chennai, Punjab, Haryana, Uttar Pradesh (East & West), Rajasthan, Madhya Pradesh & Chhattisgarh, Kerala, Bihar & Jharkhand, West Bengal, Odisha, Assam, North East, Jammu & Kashmir, Himachal Pradesh.
-
-### 4. ⚡ High-Throughput Asynchronous Architecture
-Powered by custom asynchronous network pools, handling thousands of concurrent requests without latency spikes.
-
-### 5. 🛡️ Industrial Grade Protection
-Hardened against DDoS, replay attacks, automated scraping, and unauthorized cloning.
+<table>
+  <tr>
+    <td width="50%">
+      <h3>⚡ Zero-OTP Passive Probing</h3>
+      <p>Verify whether an Indian mobile number is freshly available or pre-registered across digital ecosystems without sending intrusive SMS OTPs or alerting the recipient.</p>
+    </td>
+    <td width="50%">
+      <h3>🇮🇳 National DoT Telecom Layer</h3>
+      <p>Instant structural verification against the official Department of Telecommunications (DoT) National Numbering Plan (NNP). Invalid series and test numbers are rejected instantly.</p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
+      <h3>📡 Full 22 Telecom Circles</h3>
+      <p>Precise operator and circle resolution across Reliance Jio, Bharti Airtel, Vodafone Idea (Vi), and BSNL across Delhi, Mumbai, Kolkata, Karnataka, UP, and all national LSAs.</p>
+    </td>
+    <td width="50%">
+      <h3>🔒 Ephemeral Data Minimization</h3>
+      <p>Architected in strict compliance with the Digital Personal Data Protection Act, 2023. Submitted numbers reside only in volatile RAM for milliseconds and are never logged to disk.</p>
+    </td>
+  </tr>
+</table>
 
 ---
 
@@ -159,36 +196,45 @@ To protect intellectual property and enterprise trade secrets, core algorithms a
 
 ---
 
-## 🤖 Official Bot Access
+## ⚡ Quick Start
 
 The official bot provides an interactive graphical interface with inline buttons, batch checkers, live wallet balance, and instant ticket support:
 
-```text
-/start      - Initialize bot session & load dashboard
-/check      - Single phone number instant inspection
-/batch      - High-volume batch file & multi-line validation
-/wallet     - Top-up credits via instant automated UPI QR
-/help       - 24/7 Priority support & ticket helpdesk
-```
+| Command | Action Description | Access Level |
+| :--- | :--- | :--- |
+| <kbd>/start</kbd> | Initialize bot session & load personal dashboard | Public |
+| <kbd>/check</kbd> | Single phone number instant inspection (<350ms) | Public |
+| <kbd>/batch</kbd> | High-volume batch file & multi-line validation | Enterprise / High-Volume |
+| <kbd>/wallet</kbd> | Instant automated UPI QR credit top-up | Public |
+| <kbd>/help</kbd> | 24/7 Priority support & ticket helpdesk | Public |
 
-### Example Verification Output
+---
 
-```yaml
-=======================================
-⚡ FRESH NUMCHECKER™ REPORT
-=======================================
-📱 Number      : +91 98765 43210
-📍 Operator    : Bharti Airtel
-🌐 Circle      : Delhi NCR (DL)
-🛡️ DoT Status  : VALID_ACTIVE_SERIES
-📊 Gateway 1   : [PASSED - FRESH]
-📊 Gateway 2   : [PASSED - FRESH]
-📊 Gateway 3   : [PASSED - FRESH]
----------------------------------------
-✅ FINAL VERDICT: 🟢 FRESH NUMBER (Clean)
-⚡ Latency      : 284ms
-=======================================
-```
+## ❓ Frequently Asked Questions
+
+<details>
+<summary><b>1. How does Zero-OTP verification work without alerting the user?</b></summary>
+<br/>
+Our verification mesh executes passive protocol handshakes against publicly accessible application interfaces. It evaluates metadata status codes without completing transaction forms, which prevents SMS OTP triggers from being dispatched to the recipient's handset.
+</details>
+
+<details>
+<summary><b>2. Are queried phone numbers stored on your servers?</b></summary>
+<br/>
+<b>No. Never.</b> In compliance with the Digital Personal Data Protection Act, 2023 (DPDP Act), all numbers are evaluated strictly in volatile Random Access Memory (RAM). Once the verification result is transmitted to your client, the memory block is wiped by automated garbage collectors.
+</details>
+
+<details>
+<summary><b>3. Which telecom circles and operators are covered?</b></summary>
+<br/>
+All 22 licensed telecom service areas across the Republic of India are supported, including Reliance Jio, Bharti Airtel, Vodafone Idea (Vi), and BSNL / MTNL.
+</details>
+
+<details>
+<summary><b>4. What should I do if a batch query fails or times out?</b></summary>
+<br/>
+The bot includes automatic error handling. If network congestion occurs, you can re-submit the batch or open a support ticket immediately using the <kbd>/help</kbd> command for rapid assistance.
+</details>
 
 ---
 
@@ -250,6 +296,10 @@ For the complete SEO strategy, meta tags, and competitor displacement tactics, r
 <br/>
 
 <div align="center">
+
+<a href="#top">⬆ Back to Top</a>
+
+<br/><br/>
 
 **© 2026 Fresh NumChecker Inc. All Rights Reserved.**  
 *Protected under the Indian Copyright Act, 1957, Information Technology Act, 2000, and International Intellectual Property Conventions.*

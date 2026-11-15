@@ -1,6 +1,12 @@
+<a name="top"></a>
+
 # <div align="center">⚖️ STATUTORY LEGAL DISCLAIMER & SAFE HARBOR NOTICE</div>
 
 <div align="center">
+
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=16&duration=3000&pause=1000&color=0070F3&center=true&vCenter=true&width=650&height=35&lines=Statutory+Safe+Harbor+Notice;Section+79+Information+Technology+Act+2000;Nominative+Fair+Use+Trademark+Disclaimer" alt="Disclaimer Shield Typing" />
+</p>
 
 [![Legal Status](https://img.shields.io/badge/Status-Public_Statutory_Declaration-7928CA?style=for-the-badge&logo=gov.uk&logoColor=white)](./LEGAL_DISCLAIMER.md)
 [![Intermediary Protection](https://img.shields.io/badge/IT_Act_2000-Section_79_Safe_Harbor-00FF66?style=for-the-badge&logo=shield&logoColor=black)](./LEGAL_DISCLAIMER.md#2-statutory-intermediary-immunity-section-79-it-act-2000)
@@ -32,6 +38,18 @@
 | **Telecom Regulatory Scope** | TRAI TCCCPR 2018 & DoT National Numbering Plan | Platform does NOT send SMS/voice calls or engage in telemarketing. |
 | **Reliability & Accuracy** | Complete Disclaimer of Warranties | Algorithmic probabilities provided "AS IS" without guarantees of 100% carrier delivery. |
 | **Downstream Abuse** | Absolute User Liability & Indemnity | Users sending spam or violating NDNC rules bear 100% civil and criminal responsibility. |
+
+---
+
+## 📑 Table of Contents
+
+1. [General Disclaimer & Informational Purpose](#1-general-disclaimer--informational-purpose)
+2. [Statutory Intermediary Immunity (Section 79 IT Act)](#2-statutory-intermediary-immunity-section-79-it-act-2000)
+3. [Nominative Fair Use & Trademark Non-Affiliation](#3-nominative-fair-use--trademark-non-affiliation)
+4. [No Promise of Delivery, Accuracy, or Uptime](#4-no-promise-of-delivery-accuracy-or-continuous-uptime)
+5. [Telecom Regulations & Anti-Spam Notice (TRAI / TCCCPR)](#5-telecommunications-regulations--anti-spam-notice-trai--tcccpr)
+6. [Independent Verification & No Professional Reliance](#6-independent-verification--no-reliance)
+7. [Zero Tolerance for Fraud & Criminal Conduct](#7-zero-tolerance-for-illegal-or-fraudulent-use)
 
 ---
 
@@ -87,6 +105,10 @@
 <br/>
 
 <div align="center">
+
+<a href="#top">⬆ Back to Top</a>
+
+<br/><br/>
 
 **© 2026 Fresh NumChecker Inc. All Rights Reserved.**  
 *Statutory Disclaimer Promulgated under the Laws of the Republic of India.*

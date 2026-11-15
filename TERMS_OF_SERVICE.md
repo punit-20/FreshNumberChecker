@@ -1,6 +1,12 @@
+<a name="top"></a>
+
 # <div align="center">📜 MASTER TERMS OF SERVICE & ENTERPRISE AGREEMENT</div>
 
 <div align="center">
+
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=16&duration=3000&pause=1000&color=7928CA&center=true&vCenter=true&width=650&height=35&lines=Master+Terms+of+Service+%26+Enterprise+Agreement;Arbitration+Act+1996+Mandatory+Binding+Arbitration;Section+79+Information+Technology+Act+2000+Safe+Harbor" alt="Legal Shield Typing" />
+</p>
 
 [![Document Version](https://img.shields.io/badge/Version-4.2.0_Enterprise_Shield-7928CA?style=for-the-badge&logo=gitbook&logoColor=white)](./TERMS_OF_SERVICE.md)
 [![Effective Date](https://img.shields.io/badge/Effective-January_2026-0070F3?style=for-the-badge&logo=clock&logoColor=white)](./TERMS_OF_SERVICE.md)
@@ -38,6 +44,36 @@
 | **Warranty & Liability** | Provided 100% "AS IS"; total aggregate liability capped at ₹0 or last 30-day spend. | [Sections 13 & 14](#13-comprehensive-disclaimer-of-all-warranties) |
 | **Arbitration & Seat** | Sole Binding Arbitration under Arbitration and Conciliation Act 1996; Seat: New Delhi. | [Section 18](#18-mandatory-binding-arbitration-sole-dispute-mechanism) |
 | **Support & Grievance** | Handled exclusively via official bot ticket desk (`/help`). | [Section 24](#24-statutory-grievance-redressal-mechanism-it-rules-2021) |
+
+---
+
+## 📑 Table of Contents
+
+1. [Preamble & Binding Effect](#1-preamble-and-binding-effect)
+2. [Definitions & Architectural Scope](#2-definitions-and-architectural-scope)
+3. [Strict Educational & Diagnostic Purpose](#3-strict-educational-diagnostic-and-technical-audit-purpose)
+4. [Age of Majority & Eligibility](#4-age-of-majority-and-eligibility)
+5. [Prohibition of Malicious & Unlawful Usage](#5-strict-prohibition-of-malicious--unlawful-usage)
+6. [Telecom & Regulatory Compliance (TRAI / DoT)](#6-telecommunications--regulatory-compliance-trai-dot-tcccpr)
+7. [Intermediary Safe Harbor (Section 79 Immunity)](#7-intermediary-safe-harbor--section-79-immunity)
+8. [Zero-Log Ephemeral Processing Architecture](#8-zero-log-ephemeral-processing-architecture)
+9. [Intellectual Property & Trade Secrets](#9-intellectual-property--proprietary-trade-secrets)
+10. [Third-Party Trademarks & Non-Affiliation](#10-third-party-trademarks-and-non-affiliation-disclaimer)
+11. [Virtual Credits & No-Refund Policy](#11-financial-transactions-virtual-credits-and-no-refund-policy)
+12. [Representations & Warranties by User](#12-representations-and-warranties-by-user)
+13. [Comprehensive Disclaimer of Warranties](#13-comprehensive-disclaimer-of-all-warranties)
+14. [Absolute Limitation of Liability](#14-absolute-limitation-of-liability)
+15. [User Indemnification & Defense Covenants](#15-comprehensive-indemnification-by-user)
+16. [Waiver of Class Action Lawsuits](#16-waiver-of-class-action-lawsuits-and-collective-redress)
+17. [Covenant Not to Sue & Informal Dispute Bar](#17-covenant-not-to-sue--pre-litigation-dispute-bar)
+18. [Mandatory Binding Sole Arbitration](#18-mandatory-binding-arbitration-sole-dispute-mechanism)
+19. [Governing Law & Exclusive Jurisdiction](#19-governing-law-and-exclusive-jurisdiction)
+20. [Anti-Money Laundering & Financial Compliance](#20-anti-money-laundering--financial-compliance)
+21. [Force Majeure & Network Outages](#21-force-majeure-and-telecom-outages)
+22. [Termination & Account Suspension](#22-termination-suspension-and-blacklisting)
+23. [Severability & Survival](#23-severability-and-survival)
+24. [Statutory Grievance Redressal (IT Rules 2021)](#24-statutory-grievance-redressal-mechanism-it-rules-2021)
+25. [Entire Agreement](#25-entire-agreement)
 
 ---
 
@@ -227,6 +263,10 @@ This Master Terms of Service, together with the Privacy Policy, Legal Disclaimer
 <br/>
 
 <div align="center">
+
+<a href="#top">⬆ Back to Top</a>
+
+<br/><br/>
 
 **© 2026 Fresh NumChecker Inc. All Rights Reserved.**  
 *Protected under the Indian Contract Act, 1872 & Information Technology Act, 2000.*
