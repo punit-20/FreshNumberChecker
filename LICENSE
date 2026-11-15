@@ -1,0 +1,59 @@
+PROPRIETARY AND CONFIDENTIAL SOFTWARE LICENSE & INTELLECTUAL PROPERTY AGREEMENT
+(ALL RIGHTS RESERVED)
+
+IMPORTANT NOTICE: PLEASE READ THIS SOFTWARE LICENSE AGREEMENT CAREFULLY BEFORE ACCESSING, REVIEWING, USING, OR INTERACTING WITH ANY PORTION OF THIS REPOSITORY, ASSOCIATED SERVICES, INTERFACES, OR SYSTEM DOCUMENTATION.
+
+================================================================================
+1. GRANT OF LICENSE AND SCOPE
+================================================================================
+This repository, including its documentation, specifications, user guides, legal notices, architectural layouts, and public interfaces (collectively referred to as the "Materials"), is the sole and exclusive intellectual property of Fresh NumChecker Inc. and its founding developers (hereinafter "Licensor").
+
+All rights, titles, interests, patents, copyrights, trade secrets, trademarks, service marks, database rights, and all other proprietary rights worldwide are strictly retained and reserved by the Licensor. 
+
+NOTHING IN THIS REPOSITORY, EXPLICIT OR IMPLIED, CONSTITUTES AN OPEN-SOURCE GRANT, AN UNRESTRICTED PERMISSION TO USE, DISTRIBUTE, MODIFY, OR FORK FOR COMMERCIAL OR REPLICATION PURPOSES.
+
+================================================================================
+2. PROHIBITED CONDUCT AND RESTRICTIONS
+================================================================================
+You (the "User", "Licensee", or "Visitor") agree strictly NOT to, directly or indirectly:
+(a) Decompile, disassemble, reverse engineer, decrypt, extract, decode, or attempt to derive the underlying source code, proprietary algorithms, verification heuristics, internal network endpoints, scraper logic, tokens, or encryption keys of the Licensor's backend engines;
+(b) Copy, duplicate, clone, reproduce, republish, mirror, frame, download, transmit, distribute, sell, lease, sublicense, or commercially exploit any part of the system, interfaces, or bot configurations without prior written consent from the Licensor;
+(c) Utilize any automated scripts, bots, spiders, crawlers, or scrapers to harvest, extract, or index the materials, API endpoints, or database structures;
+(d) Create derivative works, competing services, clone bots, or commercial software directly modeled on the technical architecture or business logic of Fresh NumChecker;
+(e) Remove, alter, obscure, or tamper with any copyright notices, trademark symbols, digital watermarks, or proprietary legends affixed to or contained within the Materials.
+
+================================================================================
+3. TRADE SECRETS AND PROPRIETARY ARCHITECTURE
+================================================================================
+The Licensor deliberately maintains all operational backend logic, zero-OTP verification protocols, automated network dispatchers, database schemas, authorization tokens, and telecom filtering mechanisms as strictly protected TRADE SECRETS under applicable statutory and common laws, including the Indian Contract Act, 1872, the Information Technology Act, 2000, and international intellectual property conventions (including the TRIPS Agreement and Berne Convention).
+
+Any attempt by any entity, competitor, or individual to probe, sniff, intercept, or decompile private communication channels, API gateways, or backend services constitutes unlawful industrial espionage and computer fraud, punishable to the maximum extent permitted by criminal and civil statutes.
+
+================================================================================
+4. DISCLAIMER OF ALL WARRANTIES
+================================================================================
+THE MATERIALS AND ACCESS TO THE SYSTEM ARE PROVIDED ON AN "AS IS" AND "AS AVAILABLE" BASIS, WITHOUT WARRANTY OF ANY KIND, EXPRESS, IMPLIED, STATUTORY, OR OTHERWISE.
+
+TO THE FULLEST EXTENT PERMISSIBLE UNDER APPLICABLE LAW, THE LICENSOR EXPRESSLY DISCLAIMS ALL WARRANTIES, INCLUDING, BUT NOT LIMITED TO:
+- IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT;
+- ANY WARRANTY THAT THE INFORMATION, TELECOM LOOKUPS, OR VERIFICATIONS WILL BE 100% UNINTERRUPTED, ERROR-FREE, TIMELY, OR ABSOLUTELY ACCURATE;
+- ANY WARRANTY REGARDING TELECOMMUNICATION CARRIER RESPONSIVENESS, ROUTING DELAYS, OR THIRD-PARTY APPLICATION AVAILABILITY.
+
+================================================================================
+5. LIMITATION OF LIABILITY
+================================================================================
+UNDER NO CIRCUMSTANCES SHALL THE LICENSOR, ITS DIRECTORS, EMPLOYEES, CONTRACTORS, OR AGENTS BE LIABLE TO YOU OR ANY THIRD PARTY FOR ANY DIRECT, INDIRECT, INCIDENTAL, CONSEQUENTIAL, SPECIAL, PUNITIVE, OR EXEMPLARY DAMAGES (INCLUDING LOSS OF PROFITS, DATA LOSS, BUSINESS INTERRUPTION, LOSS OF GOODWILL, OR REGULATORY FINES) ARISING OUT OF OR IN CONNECTION WITH THE ACCESS, USE, OR INABILITY TO USE THIS REPOSITORY, BOT, OR DOCUMENTATION, REGARDLESS OF THE THEORY OF LIABILITY (WHETHER IN CONTRACT, TORT, STRICT LIABILITY, OR OTHERWISE), EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
+
+================================================================================
+6. GOVERNING LAW AND JURISDICTION
+================================================================================
+This License and any dispute or claim arising out of or related to it shall be governed exclusively by and construed in accordance with the laws of the Republic of India, without regard to conflict of law principles. The competent courts located in India shall have exclusive jurisdiction over all matters arising hereunder.
+
+================================================================================
+7. TERMINATION
+================================================================================
+Any failure to strictly comply with the terms of this Agreement automatically terminates any limited permissions or evaluation access granted herein. Upon termination, you must destroy all copies of the Materials in your possession or control.
+
+================================================================================
+COPYRIGHT (C) 2026 FRESH NUMCHECKER INC. ALL RIGHTS RESERVED.
+================================================================================
