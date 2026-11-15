@@ -1,8 +1,54 @@
-# 📡 TELECOM & REGULATORY COMPLIANCE DIRECTIVE
+# <div align="center">📡 TELECOMMUNICATIONS & STATUTORY REGULATORY DIRECTIVE</div>
 
-**REGULATORY REGIME:** REPUBLIC OF INDIA  
-**PRINCIPAL REGULATORS:** TELECOM REGULATORY AUTHORITY OF INDIA (TRAI) & DEPARTMENT OF TELECOMMUNICATIONS (DoT)  
-**FRAMEWORK STANDARDS:** TCCCPR 2018 • NATIONAL NUMBERING PLAN (NNP) • IT ACT 2000 • TELECOMMUNICATIONS ACT 2023
+<div align="center">
+
+[![Regulatory Authority](https://img.shields.io/badge/Authority-TRAI_%7C_DoT_(India)-FF9933?style=for-the-badge&logo=target&logoColor=white)](https://trai.gov.in)
+[![Numbering Framework](https://img.shields.io/badge/Standard-National_Numbering_Plan_(NNP)-7928CA?style=for-the-badge&logo=fastapi&logoColor=white)](https://dot.gov.in)
+[![Spam Directive](https://img.shields.io/badge/Regulation-TCCCPR_2018_Compliant-0070F3?style=for-the-badge&logo=shield&logoColor=white)](./COMPLIANCE_AND_TELECOM.md#3-trai--tcccpr-2018-compliance)
+[![Safe Harbor](https://img.shields.io/badge/Safe_Harbor-Section_79_IT_Act_2000-00FF66?style=for-the-badge&logo=checkmarx&logoColor=black)](./COMPLIANCE_AND_TELECOM.md#5-information-technology-act-2000--cybersecurity-alignment)
+
+---
+
+[Home](./README.md) • [Terms of Service](./TERMS_OF_SERVICE.md) • [Privacy Policy](./PRIVACY_POLICY.md) • [Legal Disclaimer](./LEGAL_DISCLAIMER.md) • [Acceptable Use](./ACCEPTABLE_USE_POLICY.md) • [Security & IP](./SECURITY_AND_IP.md)
+
+---
+
+</div>
+
+<br/>
+
+> [!NOTE]
+> **TELECOM REGULATORY POSITIONING:**  
+> Fresh NumChecker operates strictly as an application-layer data hygiene, syntax evaluation, and defensive verification utility. It does not operate telecommunications network equipment, does not transmit commercial electronic communications, and does not provide public telecommunications services.
+
+---
+
+## ⚡ Regulatory Compliance Matrix (At a Glance)
+
+| Governing Body / Statute | Key Legal Mandate | Fresh NumChecker Compliance Implementation |
+| :--- | :--- | :--- |
+| **Department of Telecommunications (DoT)** | National Numbering Plan (NNP) enforcement. | Algorithmic validation of series (6, 7, 8, 9) & 22 Licensed Service Areas. |
+| **TRAI (TCCCPR 2018)** | Prohibition of Unsolicited Commercial Communications. | **Zero-OTP Architecture:** No promotional or transactional SMS sent to handsets. |
+| **National Do Not Call (NDNC)** | Protection of consumer communication preferences. | Users must independently scrub lists against NCPR DLT prior to marketing. |
+| **Information Technology Act, 2000** | Section 79 Intermediary Safe Harbor. | Passive electronic intermediary; zero editorial control or retention of payloads. |
+| **Telecommunications Act, 2023** | Network licensing and transmission regulations. | SaaS application layer utility; exempted from carrier transmission licensing. |
+
+---
+
+## 🔄 Telecom Hygiene & Filtering Architecture
+
+```mermaid
+flowchart TD
+    A[Incoming Mobile Number] --> B{Level 1: DoT NNP Security Filter}
+    B -- Invalid Digits / Prefix < 6 --> C[❌ Immediate Rejection: INVALID_SERIES]
+    B -- Valid 10-Digit Series --> D[Level 2: 22-Circle Operator Resolution]
+    D --> E[Reliance Jio / Bharti Airtel / Vi / BSNL]
+    E --> F[Level 3: Ephemeral RAM Passive Account Probe]
+    F --> G[✅ Result Dispatched & Memory Instantly Purged]
+
+    style C fill:#2e1e1e,stroke:#FF0055,stroke-width:2px,color:#fff
+    style G fill:#1e1e2e,stroke:#00FF66,stroke-width:2px,color:#fff
+```
 
 ---
 
@@ -69,10 +115,13 @@ As documented in our Master Terms of Service, Fresh NumChecker claims the full p
 ## 6. AUDIT TRAIL AND LAW ENFORCEMENT COOPERATION
 While Fresh NumChecker does not log phone numbers queried by users, operational transaction timestamps and anonymous payment telemetry are preserved strictly for financial auditing and anti-money laundering (PMLA 2002) compliance. 
 
-The Operators maintain a cooperative stance toward Indian statutory law enforcement agencies and will furnish authorized telemetry in response to valid, lawful summons issued under **Section 91 of the Code of Criminal Procedure, 1973 / Bharatiya Nagarik Suraksha Sanhita, 2023**.
+The Operators maintain a cooperative stance toward Indian statutory law enforcement agencies and will furnish authorized telemetry in response to valid, lawful summons issued under **Section 91 of the Code of Criminal Procedure, 1973 / Section 94 of Bharatiya Nagarik Suraksha Sanhita, 2023**.
 
 <br/>
 
 <div align="center">
-<b>STRICT STATUTORY ADHERENCE • DEFENSIVE DATA HYGIENE • NATIONAL TELECOM ALIGNMENT</b>
+
+**© 2026 Fresh NumChecker Inc. All Rights Reserved.**  
+*Strict Compliance with TRAI, DoT and Indian Telecommunications Statutes.*
+
 </div>

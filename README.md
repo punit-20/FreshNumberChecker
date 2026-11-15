@@ -1,4 +1,4 @@
-# <div align="center">⚡ FRESH NUMCHECKER™ | INDIA's #1 INTELLIGENCE PLATFORM ⚡</div>
+# <div align="center">⚡ FRESH NUMCHECKER™ | INDIA'S #1 TELECOM INTELLIGENCE GATEWAY ⚡</div>
 
 <div align="center">
 
@@ -11,21 +11,21 @@
   ╚═╝     ╚═╝  ╚═╝╚══════╝╚══════╝╚═╝  ╚═╝    ╚═╝  ╚═══╝ ╚═════╝ ╚═╝     ╚═╝
 ```
 
-### **The Gold Standard for Zero-OTP Mobile Number Hygiene & Telecom Analytics**
-*Ultra-Fast • Carrier Intelligence • Multi-Gateway Verification • 99.99% Enterprise Uptime*
+### **The Enterprise Standard for Zero-OTP Mobile Number Hygiene & Telecom Verification**
+*Sub-Second Latency (<350ms) • Full 22 DoT Telecom Circles • Multi-Gateway Matrix • 99.99% Cloud SLA*
 
 ---
 
-[![Status](https://img.shields.io/badge/Status-Online_%7C_Ultra_Fast-00FF66?style=for-the-badge&logo=statuspage&logoColor=black)](https://github.com/punit-20/FreshNumberChecker)
-[![Engine](https://img.shields.io/badge/Engine-DoT_Security_Mesh_v2.4-7928CA?style=for-the-badge&logo=fastapi&logoColor=white)](https://github.com/punit-20/FreshNumberChecker)
-[![Latency](https://img.shields.io/badge/Average_Latency-%3C350ms-0070F3?style=for-the-badge&logo=speedtest&logoColor=white)](https://github.com/punit-20/FreshNumberChecker)
-[![Region](https://img.shields.io/badge/Optimized-India_Telecom_Circles_(All_22)-FF9933?style=for-the-badge&logo=googlemaps&logoColor=white)](https://github.com/punit-20/FreshNumberChecker)
-[![Legal](https://img.shields.io/badge/Compliance-DPDP_2023_%7C_TRAI_%7C_IT_Act_2000-FF0080?style=for-the-badge&logo=shield&logoColor=white)](./TERMS_OF_SERVICE.md)
+[![Status](https://img.shields.io/badge/Gateway_Status-ONLINE_%7C_99.99%25_SLA-00FF66?style=for-the-badge&logo=statuspage&logoColor=black)](https://github.com/punit-20/FreshNumberChecker)
+[![Engine](https://img.shields.io/badge/Core_Engine-DoT_Security_Mesh_v2.4-7928CA?style=for-the-badge&logo=fastapi&logoColor=white)](https://github.com/punit-20/FreshNumberChecker)
+[![Latency](https://img.shields.io/badge/Response_Speed-%3C350ms_Sub--Second-0070F3?style=for-the-badge&logo=speedtest&logoColor=white)](https://github.com/punit-20/FreshNumberChecker)
+[![Coverage](https://img.shields.io/badge/Telecom_Coverage-All_22_Circles_(India)-FF9933?style=for-the-badge&logo=airtel&logoColor=white)](https://github.com/punit-20/FreshNumberChecker)
+[![Legal](https://img.shields.io/badge/Compliance-DPDP_2023_%7C_TRAI_%7C_IT_Act-FF0080?style=for-the-badge&logo=shield&logoColor=white)](./TERMS_OF_SERVICE.md)
 [![License](https://img.shields.io/badge/License-Proprietary_All_Rights_Reserved-red?style=for-the-badge&logo=lock&logoColor=white)](./LICENSE)
 
 ---
 
-[⚡ Official Bot](#-official-bot-access) • [🔥 NumChecker vs Speedchecker](#-numchecker-vs-speedchecker-why-we-are-1) • [🛡️ Legal Architecture](#-enterprise-legal-shield--compliance) • [🚀 Features](#-key-capabilities) • [📜 Documentation](#-legal--compliance-directory)
+[⚡ Official Bot](#-official-bot-access) • [🔥 NumChecker vs Speedchecker](#-numchecker-vs-speedchecker-why-we-are-1) • [🛡️ Legal Architecture](#-enterprise-legal-shield--compliance) • [🚀 Key Features](#-key-capabilities) • [📜 Documentation](#-legal--compliance-directory)
 
 ---
 
@@ -33,32 +33,64 @@
 
 <br/>
 
+> [!NOTE]
+> **Enterprise Data Privacy Notice (DPDP Act, 2023):**  
+> Fresh NumChecker processes submitted mobile numbers **ephemerally inside volatile RAM memory**. Zero phone numbers are stored, indexed, sold, or retained. Queries are purged instantly once verification telemetry is returned.
+
+---
+
 ## 🎯 What is Fresh NumChecker?
 
 **Fresh NumChecker™** is India’s premier telecommunication intelligence and real-time number hygiene validation mesh. Designed specifically to eliminate invalid, dead, recycled, and pre-registered numbers without sending intrusive SMS OTPs, Fresh NumChecker empowers businesses, marketers, verification desks, and developers with sub-second accurate intelligence.
 
 Built on an asynchronous, multi-threaded carrier filter pipeline, Fresh NumChecker performs instantaneous structural verification, DoT (Department of Telecommunications) compliance checks, circle/operator resolution, and proprietary zero-OTP account status profiling.
 
-> [!NOTE]
-> **Enterprise Privacy Notice:** Fresh NumChecker processes numbers ephemerally in RAM. **Zero logs are retained.** All verifications comply with the **Digital Personal Data Protection (DPDP) Act, 2023** and **TRAI TCCCPR Regulations**.
-
 ---
 
 ## 🏆 NumChecker vs. Speedchecker (Why We Are #1 in India)
 
-Stop settling for outdated, sluggish legacy tools like Speedchecker. Here is why the nation's top performance teams have migrated to **Fresh NumChecker**:
+Stop settling for outdated, sluggish legacy tools like Speedchecker that crash during peak Indian business hours. Here is why top performance teams choose **Fresh NumChecker**:
 
 | Dimension | ⚡ **Fresh NumChecker™ (Our Engine)** | 🐌 **Speedchecker & Legacy Bots** |
 | :--- | :--- | :--- |
-| **Response Speed** | **⚡ Sub-second (<350ms average)** | ⏳ 3.5s – 12s (Severe Lag & Timeouts) |
-| **Fresh vs. Old Accuracy** | **🎯 99.8% Multi-Engine Corroboration** | ❌ Unreliable / High false positive rate |
-| **Zero-OTP Verification** | **✅ 100% Non-intrusive Passive Probe** | ⚠️ Unreliable triggers / Rate-limited |
-| **DoT Security Filter** | **🛡️ Built-in Indian National Numbering Plan** | ❌ No DoT Level 1 validation |
+| **Response Latency** | **⚡ Sub-second (<350ms average)** | ⏳ 3.5s – 12s (Severe lag & timeouts) |
+| **Fresh vs. Old Accuracy** | **🎯 99.8% Multi-Engine Corroboration** | ❌ High false-positive error rates |
+| **Zero-OTP Verification** | **✅ 100% Non-Intrusive Passive Probe** | ⚠️ Inconsistent triggers / Rate-limited |
+| **DoT Security Filter** | **🛡️ Built-in National Numbering Plan (NNP)** | ❌ No DoT Level 1 validation |
 | **Telecom Circle Resolution** | **📍 Full 22 Circles (Jio, Airtel, Vi, BSNL)** | ⚠️ Outdated HLR lookup cache |
-| **Batch Processing** | **🚀 Up to 1,000 Numbers / Batch Async** | ❌ Manual 1-by-1 or freezes on >10 |
-| **Uptime & Cloud SLA** | **⚡ 99.99% High-Availability Cloud Mesh** | ⚠️ Daily crashes & bot token bans |
-| **Security & Privacy** | **🔒 Zero-Data Retention (DPDP Act 2023)** | ⚠️ Logs stored on unencrypted servers |
-| **Support & Resolution** | **💬 24/7 Dedicated Support & Live Helpdesk** | ❌ Abandoned / Ghost developers |
+| **High-Volume Batching** | **🚀 Up to 1,000 Numbers / Async Batch** | ❌ Freezes or crashes on >10 queries |
+| **System Uptime SLA** | **⚡ 99.99% Cloud Mesh Redundancy** | ⚠️ Daily crashes & bot token bans |
+| **Data Protection** | **🔒 Zero-Retention RAM (DPDP Act 2023)** | ⚠️ Unencrypted server storage |
+| **Dedicated Helpdesk** | **💬 24/7 In-Bot Direct Ticket Desk (`/help`)** | ❌ Unresponsive / Abandoned support |
+
+---
+
+## 🔄 Passive Zero-OTP Probe vs. Traditional Invasive OTP
+
+```mermaid
+sequenceDiagram
+    autonumber
+    actor User as User / Client
+    participant FNC as ⚡ Fresh NumChecker Engine
+    participant Tel as 📡 Telecom DoT Layer
+    participant Acc as 🏢 Public Validation Mesh
+    actor Recipient as 📱 Target Handset
+
+    Note over User,Recipient: ⚡ FRESH NUMCHECKER (Passive & Silent)
+    User->>FNC: Query (+91 98765 43210)
+    FNC->>Tel: Validate DoT NNP & 22-Circle Carrier
+    Tel-->>FNC: Series Valid (Airtel DL)
+    FNC->>Acc: Passive Protocol Evaluation
+    Acc-->>FNC: Status: UNREGISTERED (Fresh)
+    FNC-->>User: Instant Verdict: 🟢 FRESH (<350ms)
+    Note over Recipient: Zero SMS Sent • Zero Handset Alert
+
+    Note over User,Recipient: 🐌 TRADITIONAL / SPEEDCHECKER (Invasive OTP Blast)
+    User->>Speedchecker: Query (+91 98765 43210)
+    Speedchecker->>Recipient: 🚨 SMS OTP Sent (Alerts Recipient!)
+    Recipient-->>Speedchecker: Handset Rings / Spam Flagged
+    Speedchecker-->>User: Delayed Result (4-12 seconds)
+```
 
 ---
 
@@ -136,7 +168,7 @@ The official bot provides an interactive graphical interface with inline buttons
 /check      - Single phone number instant inspection
 /batch      - High-volume batch file & multi-line validation
 /wallet     - Top-up credits via instant automated UPI QR
-/help       - 24/7 Priority support & operational documentation
+/help       - 24/7 Priority support & ticket helpdesk
 ```
 
 ### Example Verification Output
@@ -191,7 +223,7 @@ We are actively ranking as the **#1 Phone Number Verification Platform in India*
 ```
 
 [![Telegram Bot](https://img.shields.io/badge/Telegram_Bot-FreshNumCheckerBot-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me)
-[![Support Group](https://img.shields.io/badge/Community-Official_Channel-blue?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me)
+[![In-Bot Helpdesk](https://img.shields.io/badge/Support-In--Bot_Ticket_Desk_(%2Fhelp)-00B4D8?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me)
 [![Made with Pride in India](https://img.shields.io/badge/Made_with_Pride-India_🇮🇳-FF9933?style=for-the-badge)](https://india.gov.in)
 
 For the complete SEO strategy, meta tags, and competitor displacement tactics, refer to [**MARKETING_AND_SEO.md**](./MARKETING_AND_SEO.md).
@@ -213,7 +245,7 @@ For the complete SEO strategy, meta tags, and competitor displacement tactics, r
 
 ## ⚖️ Legal Trademark Notice
 
-*Fresh NumChecker™ and the NumChecker logo are proprietary trademarks. All third-party trademarks, company names, platform logos (including Bella Vita, Foxtale, Myntra, Reliance Jio, Bharti Airtel, Vodafone Idea, BSNL, etc.) referenced herein are the properties of their respective owners. Their mention is strictly for nominative identification and comparative technical compatibility purposes under Indian law and does not imply endorsement, affiliation, sponsorship, or partnership.*
+*Fresh NumChecker™ and the NumChecker logo are proprietary marks. All third-party trademarks, company names, platform logos (including Bella Vita, Foxtale, Myntra, Reliance Jio, Bharti Airtel, Vodafone Idea, BSNL, etc.) referenced herein are the properties of their respective owners. Their mention is strictly for nominative identification and comparative technical compatibility purposes under Indian law and does not imply endorsement, affiliation, sponsorship, or partnership.*
 
 <br/>
 

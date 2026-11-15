@@ -1,8 +1,73 @@
-# 🔐 INTELLECTUAL PROPERTY & SECURITY ARCHITECTURE
+# <div align="center">🔐 INTELLECTUAL PROPERTY & SECURITY GOVERNANCE</div>
 
-**POLICY STATUS:** CONFIDENTIAL TRADE SECRET NOTICE & RESPONSIBLE DISCLOSURE  
-**APPLICABLE LAWS:** INDIAN COPYRIGHT ACT, 1957 • PATENTS ACT, 1970 • IT ACT, 2000  
-**INTERNATIONAL TREATIES:** WIPO COPYRIGHT TREATY (WCT) • TRIPS AGREEMENT • BERNE CONVENTION
+<div align="center">
+
+[![IP Classification](https://img.shields.io/badge/Classification-Proprietary_Trade_Secret-red?style=for-the-badge&logo=lock&logoColor=white)](./SECURITY_AND_IP.md)
+[![Statutory Protection](https://img.shields.io/badge/Protection-Indian_Copyright_Act_1957-7928CA?style=for-the-badge&logo=shield&logoColor=white)](https://copyright.gov.in)
+[![Computer Offenses](https://img.shields.io/badge/IT_Act_2000-Section_43_%7C_65_%7C_66-0070F3?style=for-the-badge&logo=target&logoColor=white)](./SECURITY_AND_IP.md#2-strict-non-disclosure--anti-cloning-policy)
+[![Vulnerability Disclosure](https://img.shields.io/badge/Vulnerability-Responsible_Disclosure_Policy-00FF66?style=for-the-badge&logo=checkmarx&logoColor=black)](./SECURITY_AND_IP.md#3-responsible-vulnerability-disclosure-policy-vdp)
+
+---
+
+[Home](./README.md) • [Terms of Service](./TERMS_OF_SERVICE.md) • [Privacy Policy](./PRIVACY_POLICY.md) • [Legal Disclaimer](./LEGAL_DISCLAIMER.md) • [Acceptable Use](./ACCEPTABLE_USE_POLICY.md) • [Telecom Compliance](./COMPLIANCE_AND_TELECOM.md)
+
+---
+
+</div>
+
+<br/>
+
+> [!CAUTION]
+> **CLOSED-SOURCE CONFIDENTIAL TRADE SECRET NOTICE:**  
+> All underlying heuristics, reverse-engineered gateway protocols, token architectures, and database algorithms powering Fresh NumChecker are protected under the **Indian Copyright Act, 1957**, the **Information Technology Act, 2000**, and international trade secret conventions. Unauthorized decompilation, sniffing, mirroring, or cloning is strictly actionable under civil and criminal law.
+
+---
+
+## ⚡ Intellectual Property Governance (At a Glance)
+
+| Proprietary Asset | Protection Framework | Enforcement Action |
+| :--- | :--- | :--- |
+| **Zero-OTP Heuristics** | Confidential Trade Secret (Common Law & Contract Act 1872) | DMCA Takedown & Criminal Injunction |
+| **DoT Carrier Prefix Database** | Proprietary Database Right (Copyright Act 1957) | Civil Damages & Statutory Penalties |
+| **Backend API Wrappers** | Closed-Source Intellectual Property | IT Act Section 43/66 Prosecution |
+| **Branding & Layout** | Trademark & Trade Dress Rights | Cease & Desist / Asset Freezing Orders |
+| **Responsible Disclosure** | Ethical Security Reporting via In-Bot Helpdesk (`/help`) | Recognition & Bounty Credits |
+
+---
+
+## 🛡️ Enclave Isolation & Trade Secret Defense
+
+```mermaid
+graph TD
+    subgraph Public Domain
+        A[Public Documentation & Repo]
+        B[Telegram Interactive Interface]
+    end
+
+    subgraph Hardware-Isolated Security Barrier
+        C{DDoS & Reverse-Engineering Firewall}
+    end
+
+    subgraph Closed-Source Encrypted Enclave
+        D[🔒 Zero-OTP Reverse-Engineered Gateways]
+        E[🔒 Proprietary Carrier & Circle Matrix]
+        F[🔒 High-Speed Concurrency Dispatcher]
+        G[🔒 Private Session Tokens & Keys]
+    end
+
+    A -.-> C
+    B --> C
+    C ==> D
+    C ==> E
+    C ==> F
+    C ==> G
+
+    style C fill:#2e1e1e,stroke:#FF0055,stroke-width:2px,color:#fff
+    style D fill:#1e1e2e,stroke:#00FF66,stroke-width:2px,color:#fff
+    style E fill:#1e1e2e,stroke:#00FF66,stroke-width:2px,color:#fff
+    style F fill:#1e1e2e,stroke:#00FF66,stroke-width:2px,color:#fff
+    style G fill:#1e1e2e,stroke:#00FF66,stroke-width:2px,color:#fff
+```
 
 ---
 
@@ -49,14 +114,17 @@ We welcome constructive security audits and responsible vulnerability disclosure
 
 ### 3.2. Submitting a Security Finding:
 If you identify a security vulnerability or critical flaw:
-1. Open a private security ticket via the Telegram Bot dashboard (`/help` -> Security Report);
+1. Open a private security ticket via the Telegram Bot dashboard (`/help` -> Security Report Desk);
 2. Provide a detailed Proof of Concept (PoC) describing the issue, affected endpoints, and suggested remediation;
 3. Acknowledge that you will not disclose the vulnerability publicly until an official patch has been deployed.
 
 Qualifying security findings submitted in good faith may be eligible for recognition in our Security Hall of Fame and reward credits.
 
----
+<br/>
 
 <div align="center">
-<b>CONFIDENTIAL TRADE SECRET • ALL RIGHTS RESERVED • CLOSED-SOURCE CORE ENGINE</b>
+
+**© 2026 Fresh NumChecker Inc. All Rights Reserved.**  
+*Closed-Source Proprietary Enclave • Protected Under Indian & International IP Laws.*
+
 </div>

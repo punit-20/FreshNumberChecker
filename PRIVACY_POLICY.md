@@ -1,8 +1,55 @@
-# 🔒 PRIVACY POLICY & DATA GOVERNANCE FRAMEWORK
+# <div align="center">🔒 PRIVACY POLICY & DATA GOVERNANCE DIRECTIVE</div>
 
-**EFFECTIVE DATE:** JANUARY 1, 2026  
-**DOCUMENT VERSION:** 3.8.0 (DPDP ACT 2023 COMPLIANT)  
-**FRAMEWORK:** DIGITAL PERSONAL DATA PROTECTION ACT, 2023 (INDIA) & GLOBAL MINIMIZATION STANDARDS
+<div align="center">
+
+[![Statutory Framework](https://img.shields.io/badge/Statute-DPDP_Act_2023_(India)-00FF66?style=for-the-badge&logo=shield&logoColor=black)](https://india.gov.in)
+[![Data Retention](https://img.shields.io/badge/Data_Retention-0_Seconds_(Ephemeral_RAM)-7928CA?style=for-the-badge&logo=ram&logoColor=white)](./PRIVACY_POLICY.md#3-categories-of-data-processed)
+[![Compliance Status](https://img.shields.io/badge/Compliance-IT_Rules_2011_%7C_GDPR_Aligned-0070F3?style=for-the-badge&logo=checkmarx&logoColor=white)](./PRIVACY_POLICY.md#2-statutory-alignment-with-the-dpdp-act-2023)
+[![Grievance Redressal](https://img.shields.io/badge/Grievance_Redressal-Rule_3(2)_IT_Rules-FF9933?style=for-the-badge&logo=telegram&logoColor=white)](./PRIVACY_POLICY.md#10-grievance-redressal-officer)
+
+---
+
+[Home](./README.md) • [Terms of Service](./TERMS_OF_SERVICE.md) • [Legal Disclaimer](./LEGAL_DISCLAIMER.md) • [Acceptable Use](./ACCEPTABLE_USE_POLICY.md) • [Telecom Compliance](./COMPLIANCE_AND_TELECOM.md) • [Security & IP](./SECURITY_AND_IP.md)
+
+---
+
+</div>
+
+<br/>
+
+> [!NOTE]
+> **Extreme Data Minimization Commitment:**  
+> Fresh NumChecker does **NOT** store, archive, database, sell, or profile telephone numbers queried through the platform. Number checks execute inside transient server memory (RAM) and are permanently purged instantly upon transmission of the verification verdict.
+
+---
+
+## ⚡ Privacy Highlights (At a Glance)
+
+| Privacy Principle | Our System Implementation | Legal Guarantee |
+| :--- | :--- | :--- |
+| **Phone Number Retention** | **0 Seconds (RAM-only)** — Discarded immediately after query. | DPDP Act 2023 Sec 6(1) |
+| **User Data Collected** | Minimal Telegram User ID & anonymous payment receipts only. | IT Rules 2011 / DPDP Act |
+| **Sensitive PII Stored** | **ZERO.** No Aadhaar, PAN, names, addresses, or GPS coordinates. | Sec 43A IT Act 2000 |
+| **Third-Party Data Sale** | **STRICTLY FORBIDDEN.** We never sell data to brokers or advertisers. | Anti-Commercialization Policy |
+| **Encryption Standard** | TLS 1.3 in-transit encryption across all gateways and microservices. | High-Grade Cryptography |
+| **Redressal Mechanism** | Official In-Bot Ticket Desk (`/help` -> Privacy Desk) within 48h. | Rule 3(2) IT Rules 2021 |
+
+---
+
+## 🔄 Ephemeral Memory Processing Flow (Zero-Log Architecture)
+
+```mermaid
+flowchart TD
+    A[📱 User Queries Number: +91 9876543210] --> B[⚡ Secure TLS 1.3 Ingress Gateway]
+    B --> C[🧠 Volatile RAM Execution Enclave]
+    C --> D[📡 Passive DoT & Operator Format Check]
+    D --> E[📊 Compile Verification Verdict]
+    E --> F[📤 Dispatch Result to User]
+    F --> G[🗑️ Automated Garbage Collection: RAM Purged to 0]
+    
+    style C fill:#1e1e2e,stroke:#00FF66,stroke-width:2px,color:#fff
+    style G fill:#2e1e1e,stroke:#FF0055,stroke-width:2px,color:#fff
+```
 
 ---
 
@@ -111,5 +158,8 @@ In accordance with Rule 3(2) of the Information Technology Rules, 2021 and Secti
 <br/>
 
 <div align="center">
-<b>CONFIDENTIAL & SECURE TELECOM GOVERNANCE • ZERO-LOG ARCHITECTURE</b>
+
+**© 2026 Fresh NumChecker Inc. All Rights Reserved.**  
+*Fully Compliant with the Digital Personal Data Protection Act, 2023 (Republic of India).*
+
 </div>

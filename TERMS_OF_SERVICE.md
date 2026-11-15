@@ -1,17 +1,47 @@
-# 📜 MASTER TERMS OF SERVICE & USER AGREEMENT
+# <div align="center">📜 MASTER TERMS OF SERVICE & ENTERPRISE AGREEMENT</div>
 
-**LAST REVISED AND EFFECTIVE DATE:** JANUARY 1, 2026  
-**DOCUMENT VERSION:** 4.2.0 (ENTERPRISE LEGAL SHIELD)  
-**APPLICABLE JURISDICTION:** REPUBLIC OF INDIA & INTERNATIONAL MARITIME COMMERCE
+<div align="center">
+
+[![Document Version](https://img.shields.io/badge/Version-4.2.0_Enterprise_Shield-7928CA?style=for-the-badge&logo=gitbook&logoColor=white)](./TERMS_OF_SERVICE.md)
+[![Effective Date](https://img.shields.io/badge/Effective-January_2026-0070F3?style=for-the-badge&logo=clock&logoColor=white)](./TERMS_OF_SERVICE.md)
+[![Jurisdiction](https://img.shields.io/badge/Jurisdiction-Republic_of_India-FF9933?style=for-the-badge&logo=target&logoColor=white)](https://india.gov.in)
+[![Dispute Resolution](https://img.shields.io/badge/Dispute-Binding_Sole_Arbitration-red?style=for-the-badge&logo=shield&logoColor=white)](./TERMS_OF_SERVICE.md#18-mandatory-binding-arbitration-sole-dispute-mechanism)
+[![Intermediary Status](https://img.shields.io/badge/IT_Act_2000-Section_79_Safe_Harbor-00FF66?style=for-the-badge&logo=checkmarx&logoColor=black)](./TERMS_OF_SERVICE.md#7-intermediary-safe-harbor--section-79-immunity)
 
 ---
 
-> ### ⚠️ CRITICAL LEGAL WARNING
-> **PLEASE READ THIS ENTIRE DOCUMENT WITH EXTREME CARE. BY ACCESSING, VIEWING, CLONING, FORKING, EXECUTING, INTEGRATING WITH, OR INTERACTING WITH THE FRESH NUMCHECKER BOT, REPOSITORY, PLATFORM, REST APIS, OR DOCUMENTATION, YOU ARE UNCONDITIONALLY ENTERING INTO A LEGALLY BINDING, IRREVOCABLE CONTRACT WITH THE DEVELOPERS, OPERATORS, FOUNDERS, AND MAINTAINERS (COLLECTIVELY, "THE OPERATORS"). IF YOU DO NOT CONSENT TO EVERY SINGLE CLAUSE SET FORTH HEREIN, YOU ARE EXPRESSLY FORBIDDEN FROM ACCESSING OR USING ANY PORTION OF THIS PLATFORM.**
+[Home](./README.md) • [Privacy Policy](./PRIVACY_POLICY.md) • [Legal Disclaimer](./LEGAL_DISCLAIMER.md) • [Acceptable Use](./ACCEPTABLE_USE_POLICY.md) • [Telecom Compliance](./COMPLIANCE_AND_TELECOM.md) • [Security & IP](./SECURITY_AND_IP.md)
 
 ---
 
-## 1. PREAMBLE AND BINDING ARBITRATION NOTICE
+</div>
+
+<br/>
+
+> [!WARNING]
+> ### CRITICAL LEGAL NOTICE & CLASS ACTION WAIVER
+> **PLEASE CAREFULLY REVIEW THIS ENTIRE MASTER AGREEMENT. BY INTERACTING WITH, QUERYING, INTEGRATING WITH, OR ACCESSING THE FRESH NUMCHECKER BOT, PLATFORM, DOCUMENTATION, OR APIS, YOU UNCONDITIONALLY AGREE TO BE LEGALLY BOUND BY ALL PROVISIONS HEREIN. IF YOU DO NOT AGREE, YOU MUST IMMEDIATELY DISCONTINUE ALL ACCESS AND USE.**
+> 
+> **SECTIONS 18 AND 19 REQUIRE THAT ALL DISPUTES BE RESOLVED BY MANDATORY BINDING SOLE ARBITRATION SEATED IN NEW DELHI, INDIA, AND CONSTITUTE AN IRREVOCABLE WAIVER OF CLASS ACTION LAWSUITS.**
+
+---
+
+## ⚡ Executive Summary (At a Glance)
+
+| Clause Category | Summary Description | Applicable Reference |
+| :--- | :--- | :--- |
+| **Contract Nature** | Enforceable electronic contract under Indian Contract Act 1872 & IT Act 2000. | [Section 1](#1-preamble-and-binding-effect) |
+| **Permitted Use** | Defensive telecom syntax validation, data hygiene & authorized research only. | [Section 3](#3-strict-educational-diagnostic-and-technical-audit-purpose) |
+| **Safe Harbor** | Intermediary statutory immunity under Section 79 of Information Technology Act 2000. | [Section 7](#7-intermediary-safe-harbor--section-79-immunity) |
+| **Privacy Model** | Zero-Log ephemeral memory execution; phone numbers never written to persistent disk. | [Section 8](#8-zero-log-ephemeral-processing-architecture) |
+| **Intellectual Property** | Closed-source trade secrets; reverse engineering strictly prohibited under IT Act Sec 43/66. | [Section 9](#9-intellectual-property--proprietary-trade-secrets) |
+| **Warranty & Liability** | Provided 100% "AS IS"; total aggregate liability capped at ₹0 or last 30-day spend. | [Sections 13 & 14](#13-comprehensive-disclaimer-of-all-warranties) |
+| **Arbitration & Seat** | Sole Binding Arbitration under Arbitration and Conciliation Act 1996; Seat: New Delhi. | [Section 18](#18-mandatory-binding-arbitration-sole-dispute-mechanism) |
+| **Support & Grievance** | Handled exclusively via official bot ticket desk (`/help`). | [Section 24](#24-statutory-grievance-redressal-mechanism-it-rules-2021) |
+
+---
+
+## 1. PREAMBLE AND BINDING EFFECT
 1.1. **Contractual Nature.** This Master Terms of Service Agreement ("Agreement") constitutes a legally enforceable electronic contract recognized under the **Indian Contract Act, 1872**, the **Information Technology Act, 2000**, and equivalent international electronic transactional statutes.  
 1.2. **Arbitration and Class Action Waiver.** **SECTION 18 AND SECTION 19 OF THIS AGREEMENT CONTAIN A MANDATORY BINDING ARBITRATION CLAUSE AND A CLASS ACTION LAWSUIT WAIVER. THIS PROVISION DRASTICALLY AFFECTS YOUR LEGAL REMEDIES AND REQUIRES THAT ALL CLAIMS BE RESOLVED VIA INDIVIDUAL, BINDING ARBITRATION IN INDIA RATHER THAN IN A COURT OF LAW.**  
 1.3. **Capacity.** By accessing this repository or utilizing the service, you represent and warrant that you possess full legal capacity to enter into this contract under the applicable laws of your residential jurisdiction and that you are not barred by any regulatory body, telecommunications authority, or statutory court from doing so.
@@ -141,7 +171,7 @@ YOU AND THE OPERATORS MUTUALLY AGREE THAT ALL CLAIMS, DISPUTES, OR LITIGATION MU
 
 ## 17. COVENANT NOT TO SUE & PRE-LITIGATION DISPUTE BAR
 17.1. **Covenant.** You explicitly covenant and agree that you will not institute, maintain, finance, assist, or prosecute any lawsuit, legal action, criminal complaint, or administrative proceeding against the Operators regarding the operation, functionality, downtime, or output of this Platform.  
-17.2. **Mandatory 60-Day Informal Consultation.** Prior to initiating any formal legal or arbitration proceeding, you must submit a written, comprehensive notice of dispute via our official support channels and engage in good-faith informal negotiations for a minimum period of 60 (sixty) calendar days.
+17.2. **Mandatory 60-Day Informal Consultation.** Prior to initiating any formal legal or arbitration proceeding, you must submit a written, comprehensive notice of dispute via our official in-bot ticket desk (`/help`) and engage in good-faith informal negotiations for a minimum period of 60 (sixty) calendar days.
 
 ---
 
@@ -181,11 +211,11 @@ If any provision or clause of this Agreement is adjudged by an arbitrator or cou
 
 ---
 
-## 24. GRIEVANCE REDRESSAL MECHANISM (IT RULES, 2021)
+## 24. STATUTORY GRIEVANCE REDRESSAL MECHANISM (IT RULES, 2021)
 In accordance with Rule 3(2) of the **Information Technology (Intermediary Guidelines and Digital Media Ethics Code) Rules, 2021**, any complaints, notices, or legal grievances regarding the Platform must be submitted in writing to the designated Grievance Officer:
 
 - **Designated Grievance & Compliance Desk:** Fresh NumChecker Legal Directorate  
-- **Electronic Redressal Portal:** Via Telegram Official Bot Support Desk (`/help` -> Submit Ticket)  
+- **Official Redressal Portal:** Telegram Bot Priority Helpdesk (`/help` -> Submit Legal Ticket)  
 - **Standard Acknowledgment Window:** 48 business hours  
 - **Standard Resolution Window:** 15 business days (in compliance with IT Rules, 2021)
 
@@ -197,5 +227,8 @@ This Master Terms of Service, together with the Privacy Policy, Legal Disclaimer
 <br/>
 
 <div align="center">
-<b>BY UTILIZING THIS REPOSITORY OR PLATFORM, YOU CONFIRM THAT YOU HAVE FULLY READ, UNDERSTOOD, AND AGREED TO BE BOUND BY EVERY CLAUSE IN THIS AGREEMENT.</b>
+
+**© 2026 Fresh NumChecker Inc. All Rights Reserved.**  
+*Protected under the Indian Contract Act, 1872 & Information Technology Act, 2000.*
+
 </div>

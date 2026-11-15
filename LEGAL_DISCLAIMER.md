@@ -1,8 +1,37 @@
-# ⚖️ LEGAL DISCLAIMER & STATUTORY SAFE HARBOR NOTICE
+# <div align="center">⚖️ STATUTORY LEGAL DISCLAIMER & SAFE HARBOR NOTICE</div>
 
-**EFFECTIVE DATE:** JANUARY 1, 2026  
-**STATUS:** PUBLIC LEGAL NOTICE & STATUTORY DECLARATION  
-**GOVERNING LAW:** INFORMATION TECHNOLOGY ACT, 2000 & TELECOM REGULATORY STATUTES (INDIA)
+<div align="center">
+
+[![Legal Status](https://img.shields.io/badge/Status-Public_Statutory_Declaration-7928CA?style=for-the-badge&logo=gov.uk&logoColor=white)](./LEGAL_DISCLAIMER.md)
+[![Intermediary Protection](https://img.shields.io/badge/IT_Act_2000-Section_79_Safe_Harbor-00FF66?style=for-the-badge&logo=shield&logoColor=black)](./LEGAL_DISCLAIMER.md#2-statutory-intermediary-immunity-section-79-it-act-2000)
+[![Fair Use](https://img.shields.io/badge/Doctrine-Nominative_Fair_Use-0070F3?style=for-the-badge&logo=trademark&logoColor=white)](./LEGAL_DISCLAIMER.md#3-nominative-fair-use--trademark-non-affiliation)
+[![Regulatory Alignment](https://img.shields.io/badge/Regulatory-TRAI_%7C_DoT_%7C_TCCCPR-FF9933?style=for-the-badge&logo=target&logoColor=white)](./LEGAL_DISCLAIMER.md#5-telecommunications-regulations--anti-spam-notice-trai--tcccpr)
+
+---
+
+[Home](./README.md) • [Terms of Service](./TERMS_OF_SERVICE.md) • [Privacy Policy](./PRIVACY_POLICY.md) • [Acceptable Use](./ACCEPTABLE_USE_POLICY.md) • [Telecom Compliance](./COMPLIANCE_AND_TELECOM.md) • [Security & IP](./SECURITY_AND_IP.md)
+
+---
+
+</div>
+
+<br/>
+
+> [!IMPORTANT]
+> **STATUTORY IMMUNITY DECLARATION:**  
+> Fresh NumChecker operates strictly as a passive technological intermediary under **Section 79 of the Information Technology Act, 2000**. The developers and operators do not initiate, curate, modify, or store transmission contents and bear zero liability for downstream user actions.
+
+---
+
+## ⚡ Statutory Notice Summary (At a Glance)
+
+| Legal Pillar | Statutory Principle | Practical Application |
+| :--- | :--- | :--- |
+| **Intermediary Immunity** | Section 79, Information Technology Act, 2000 | Operators protected from liability for user queries and third-party data transmission. |
+| **Trademark Non-Affiliation** | Nominative Fair Use (Indian Trademark Act, 1999) | Operator & brand logos mentioned solely to describe technical compatibility. |
+| **Telecom Regulatory Scope** | TRAI TCCCPR 2018 & DoT National Numbering Plan | Platform does NOT send SMS/voice calls or engage in telemarketing. |
+| **Reliability & Accuracy** | Complete Disclaimer of Warranties | Algorithmic probabilities provided "AS IS" without guarantees of 100% carrier delivery. |
+| **Downstream Abuse** | Absolute User Liability & Indemnity | Users sending spam or violating NDNC rules bear 100% civil and criminal responsibility. |
 
 ---
 
@@ -55,8 +84,11 @@
 7.1. We maintain an uncompromising zero-tolerance stance toward cybercrime, fraud, identity theft, financial scamming, harassment, and harassment networks.  
 7.2. Any user identified as utilizing the platform in connection with criminal activities, cyber extortion, or unauthorized credential stuffing will have their account terminated immediately, their IP banned, and all relevant transactional records preserved and handed over to competent law enforcement agencies upon receipt of lawful judicial process.
 
----
+<br/>
 
 <div align="center">
-<b>STATUTORY DISCLAIMER ISSUED UNDER THE LAWS OF THE REPUBLIC OF INDIA</b>
+
+**© 2026 Fresh NumChecker Inc. All Rights Reserved.**  
+*Statutory Disclaimer Promulgated under the Laws of the Republic of India.*
+
 </div>

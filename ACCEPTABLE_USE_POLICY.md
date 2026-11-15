@@ -1,8 +1,50 @@
-# 🚫 ACCEPTABLE USE POLICY (AUP) & ANTI-ABUSE DIRECTIVE
+# <div align="center">🚫 ACCEPTABLE USE POLICY & ANTI-ABUSE DIRECTIVE</div>
 
-**EFFECTIVE DATE:** JANUARY 1, 2026  
-**DOCUMENT VERSION:** 3.4.0  
-**SCOPE:** ALL USERS, AUTOMATED AGENTS, APIS, TELEGRAM SESSIONS, AND VISITORS
+<div align="center">
+
+[![Policy Enforcement](https://img.shields.io/badge/Enforcement-Automated_%7C_Zero_Tolerance-red?style=for-the-badge&logo=shield&logoColor=white)](./ACCEPTABLE_USE_POLICY.md)
+[![Regulatory Rule](https://img.shields.io/badge/Regulation-TRAI_TCCCPR_2018-7928CA?style=for-the-badge&logo=target&logoColor=white)](./ACCEPTABLE_USE_POLICY.md#21-unlawful-communications--telemarketing-violations)
+[![Rate Limits](https://img.shields.io/badge/Rate_Limiting-Active_Heuristic_Shield-0070F3?style=for-the-badge&logo=speedtest&logoColor=white)](./ACCEPTABLE_USE_POLICY.md#3-usage-quotas-and-rate-limiting)
+[![Support](https://img.shields.io/badge/Report_Abuse-In--Bot_Ticket_(%2Fhelp)-00FF66?style=for-the-badge&logo=telegram&logoColor=black)](./ACCEPTABLE_USE_POLICY.md#5-reporting-abuse)
+
+---
+
+[Home](./README.md) • [Terms of Service](./TERMS_OF_SERVICE.md) • [Privacy Policy](./PRIVACY_POLICY.md) • [Legal Disclaimer](./LEGAL_DISCLAIMER.md) • [Telecom Compliance](./COMPLIANCE_AND_TELECOM.md) • [Security & IP](./SECURITY_AND_IP.md)
+
+---
+
+</div>
+
+<br/>
+
+> [!CAUTION]
+> **ZERO TOLERANCE FOR ILLEGAL HARASSMENT, SPAM & SYSTEM EXPLOITATION:**  
+> Any attempt to use Fresh NumChecker for automated robocalls, unsolicited telemarketing, SIM-swap attacks, credential stuffing, scraping, or reverse engineering will result in immediate permanent banning, forfeiture of credits, and referral to cybercrime authorities under the **Information Technology Act, 2000**.
+
+---
+
+## ⚡ Permitted vs. Prohibited Usage Matrix
+
+| Category | ✅ Permitted & Lawful Use | ❌ Strictly Prohibited Violations |
+| :--- | :--- | :--- |
+| **Data Hygiene** | Verifying user-opted database lists for syntax validity. | Checking stolen, leaked, or scraped phone lists. |
+| **Telecom Audits** | Validating National Numbering Plan (NNP) series compliance. | Telemarketing without checking DND / TRAI registry. |
+| **Security Research** | Defensive testing of internal organizational telecom flows. | Reconnaissance for SIM-swapping, OSINT harassment, or ATO. |
+| **System Access** | Interacting via official Telegram Bot commands and UI buttons. | Reverse-engineering backend protocols or sniffing private APIs. |
+| **Traffic Patterns** | Normal single and batch requests within established rate limits. | DDoS flooding, rotating proxies, or flood attacks. |
+
+---
+
+## 🔄 Threat Detection & Enforcement Pipeline
+
+```mermaid
+flowchart LR
+    A[Incoming Query Stream] --> B{Heuristic Threat Evaluation}
+    B -- Clean Traffic --> C[⚡ Accelerated In-Memory Execution]
+    B -- Volumetric Flood --> D[🛡️ IP / Telegram ID Throttle]
+    B -- Reverse Engineering / Exploit --> E[🚨 Permanent Blacklist & Token Revocation]
+    E --> F[⚖️ Telemetry Forwarded to CERT-In / Cyber Cell]
+```
 
 ---
 
@@ -66,11 +108,14 @@ Attempting to distribute queries across hundreds of disposable fake Telegram acc
 ## 5. REPORTING ABUSE
 If you suspect or discover that our platform is being utilized by any bad actor for unlawful purposes, please report it immediately to our compliance desk:
 
-- **Incident Reporting:** Open a support ticket via the Telegram Bot dashboard (`/help` -> Report Abuse).
+- **Incident Reporting:** Open a support ticket via the Telegram Bot dashboard (`/help` -> Report Abuse Ticket).
 - **Required Details:** Include relevant phone numbers, timestamps, logs, and evidence of unauthorized activity.
 
 <br/>
 
 <div align="center">
-<b>ZERO TOLERANCE FOR SPAM • ZERO TOLERANCE FOR HARASSMENT • ENTERPRISE INTEGRITY</b>
+
+**© 2026 Fresh NumChecker Inc. All Rights Reserved.**  
+*Strict Anti-Spam & Defensive Telecom Governance.*
+
 </div>
