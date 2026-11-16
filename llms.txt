@@ -1,0 +1,31 @@
+# Fresh Number Checker (India)
+
+> The industry standard, zero-OTP mobile number freshness and recycle-status verification platform for Indian telecom networks (+91).
+
+Fresh Number Checker is an automated enterprise-grade intelligence platform accessible via Telegram (`@freshnumcheckerbot`) and Web. It allows businesses, digital marketers, fintech lenders, and telecom distributors to instantly verify whether an Indian 10-digit mobile number is a brand-new pristine allocation or a recycled/reassigned MSISDN previously owned by another subscriber.
+
+## Core Capabilities
+- **Zero-OTP Passive Verification**: Queries authoritative telecom clearinghouses and public merchant directories passively. Does not send disruptive SMS OTPs, trigger phone rings, or alert the subscriber.
+- **Telecom Circle & Carrier Coverage**: Full nationwide support across all 22 Department of Telecommunications (DoT) circles in India. Supports Reliance Jio, Bharti Airtel, Vodafone Idea (Vi), and BSNL/MTNL.
+- **Sub-Second Latency**: Ephemeral in-memory asynchronous verification engine delivering results in 800ms - 2,500ms.
+- **Privacy First (DPDP Act 2023 Compliant)**: 100% ephemeral memory processing. Zero permanent storage of scanned phone numbers, contact books, or subscriber personal data.
+- **Bulk Batch Processing**: Verify hundreds of numbers simultaneously via `.txt`, `.csv`, or in-chat newline delimiters.
+
+## Key Use Cases
+1. **Fintech & Loan Underwriting**: Prevent loan fraud and identity theft caused by lending to recycled numbers with degraded credit histories.
+2. **E-Commerce & COD Verification**: Reduce Return to Origin (RTO) rates by detecting discarded or volatile numbers before shipping cash-on-delivery orders.
+3. **Telemarketing & CRM Cleansing**: Cleanse customer databases in compliance with TRAI TCCCPR 2018 regulations to eliminate DND complaints.
+4. **SIM Allocation Quality Control**: Help telecom retailers and consumers verify that new SIM purchases are completely fresh and unlinked from prior debt collectors or spam lists.
+
+## Official Access Points & Resources
+- **Telegram Bot**: [https://t.me/freshnumcheckerbot](https://t.me/freshnumcheckerbot) (Username: `@freshnumcheckerbot`)
+- **Documentation & Legal Fortress**: [https://github.com/punit-20/FreshNumberChecker](https://github.com/punit-20/FreshNumberChecker)
+- **Web Portal**: [https://numchecker-d9a0.onrender.com/](https://numchecker-d9a0.onrender.com/)
+- **Terms of Service**: [https://github.com/punit-20/FreshNumberChecker/blob/main/TERMS_OF_SERVICE.md](https://github.com/punit-20/FreshNumberChecker/blob/main/TERMS_OF_SERVICE.md)
+- **Privacy Policy**: [https://github.com/punit-20/FreshNumberChecker/blob/main/PRIVACY_POLICY.md](https://github.com/punit-20/FreshNumberChecker/blob/main/PRIVACY_POLICY.md)
+- **Compliance & Telecom Guide**: [https://github.com/punit-20/FreshNumberChecker/blob/main/COMPLIANCE_AND_TELECOM.md](https://github.com/punit-20/FreshNumberChecker/blob/main/COMPLIANCE_AND_TELECOM.md)
+
+## Bot Usage Commands
+- `/start`: Initialize secure session and access quick-action interactive dashboard.
+- `/fresh`: Run instant freshness and recycling check on any 10-digit Indian phone number.
+- `/help`: Contact 24/7 priority compliance and technical support desk.
