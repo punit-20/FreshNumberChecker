@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- Primary SEO Meta Tags -->
+  <title>Fresh NumChecker™ | India's #1 Zero-OTP Telecom Intelligence & Verification Gateway</title>
+  <meta name="title" content="Fresh NumChecker™ | India's #1 Zero-OTP Telecom Intelligence & Verification Gateway">
+  <meta name="description" content="Sub-second (<350ms) Zero-OTP mobile number hygiene, DoT carrier security filtering across all 22 Indian telecom circles (Reliance Jio, Bharti Airtel, Vi, BSNL). DPDP Act 2023 compliant.">
+  <meta name="keywords" content="fresh number checker, zero otp verification, indian mobile number validator, telegram checker bot, dot carrier filter, hlr lookup india, airtel jio vi bsnl, phone hygiene">
+  <meta name="robots" content="index, follow">
+  <meta name="language" content="English">
+  <meta name="author" content="Fresh NumChecker Inc.">
+  <link rel="canonical" href="https://punit-20.github.io/FreshNumberChecker/">
+
+  <!-- Open Graph / Facebook / WhatsApp -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://punit-20.github.io/FreshNumberChecker/">
+  <meta property="og:title" content="Fresh NumChecker™ | India's #1 Zero-OTP Telecom Intelligence">
+  <meta property="og:description" content="Sub-second (<350ms) passive verification for Indian mobile numbers without intrusive SMS OTPs. 100% DPDP Act 2023 compliant.">
+  <meta property="og:image" content="https://raw.githubusercontent.com/punit-20/FreshNumberChecker/main/assets/github_social_preview.jpg">
+
+  <!-- Twitter Card -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="https://punit-20.github.io/FreshNumberChecker/">
+  <meta property="twitter:title" content="Fresh NumChecker™ | India's #1 Zero-OTP Telecom Intelligence">
+  <meta property="twitter:description" content="Verify mobile number freshness without sending OTPs. All 22 Indian circles supported.">
+  <meta property="twitter:image" content="https://raw.githubusercontent.com/punit-20/FreshNumberChecker/main/assets/github_social_preview.jpg">
+
+  <!-- Schema.org JSON-LD Structured Data for Google Rich Snippets -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "Fresh NumChecker",
+    "operatingSystem": "Telegram, Web, Cloud API",
+    "applicationCategory": "UtilitiesApplication",
+    "description": "Zero-OTP passive mobile number verification and DoT telecom carrier filter for Indian mobile subscribers across all 22 circles.",
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.9",
+      "ratingCount": "1840",
+      "bestRating": "5"
+    },
+    "offers": {
+      "@type": "Offer",
+      "price": "0",
+      "priceCurrency": "INR"
+    },
+    "author": {
+      "@type": "Organization",
+      "name": "Fresh NumChecker Inc."
+    }
+  }
+  </script>
+
+  <style>
+    :root {
+      --bg: #0d1117;
+      --card-bg: #161b22;
+      --border: #30363d;
+      --primary: #00FF66;
+      --accent: #58a6ff;
+      --purple: #bc8cff;
+      --text: #c9d1d9;
+      --text-bright: #ffffff;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background-color: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      min-height: 100vh;
+      padding: 40px 20px;
+    }
+    .container {
+      max-width: 900px;
+      width: 100%;
+      text-align: center;
+    }
+    .badge {
+      display: inline-block;
+      padding: 6px 14px;
+      font-size: 0.85rem;
+      font-weight: 700;
+      border-radius: 20px;
+      background: rgba(0, 255, 102, 0.1);
+      color: var(--primary);
+      border: 1px solid var(--primary);
+      margin-bottom: 20px;
+      letter-spacing: 0.5px;
+    }
+    h1 {
+      font-size: 2.8rem;
+      font-weight: 800;
+      color: var(--text-bright);
+      margin-bottom: 15px;
+      line-height: 1.2;
+    }
+    .gradient-text {
+      background: linear-gradient(90deg, #00FF66, #58a6ff, #bc8cff);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    p.lead {
+      font-size: 1.25rem;
+      color: #8b949e;
+      margin-bottom: 35px;
+      max-width: 720px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .btn-group {
+      display: flex;
+      gap: 16px;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin-bottom: 50px;
+    }
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      padding: 14px 28px;
+      font-size: 1.05rem;
+      font-weight: 600;
+      border-radius: 8px;
+      text-decoration: none;
+      transition: all 0.2s ease-in-out;
+    }
+    .btn-primary {
+      background-color: #238636;
+      color: #ffffff;
+      border: 1px solid rgba(255, 255, 255, 0.1);
+    }
+    .btn-primary:hover {
+      background-color: #2ea043;
+      transform: translateY(-2px);
+      box-shadow: 0 4px 12px rgba(46, 160, 67, 0.4);
+    }
+    .btn-secondary {
+      background-color: var(--card-bg);
+      color: var(--text-bright);
+      border: 1px solid var(--border);
+    }
+    .btn-secondary:hover {
+      background-color: #21262d;
+      border-color: #8b949e;
+      transform: translateY(-2px);
+    }
+    .terminal-card {
+      background: #090d13;
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 24px;
+      text-align: left;
+      font-family: "Fira Code", monospace;
+      font-size: 0.92rem;
+      color: #e6edf3;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+      margin-bottom: 45px;
+      overflow-x: auto;
+    }
+    .terminal-dots {
+      display: flex;
+      gap: 8px;
+      margin-bottom: 16px;
+      border-bottom: 1px solid #21262d;
+      padding-bottom: 12px;
+    }
+    .dot {
+      width: 12px;
+      height: 12px;
+      border-radius: 50%;
+    }
+    .dot-red { background: #ff5f56; }
+    .dot-yellow { background: #ffbd2e; }
+    .dot-green { background: #27c93f; }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 20px;
+      text-align: left;
+      margin-bottom: 50px;
+    }
+    .grid-item {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 24px;
+      transition: border-color 0.2s;
+    }
+    .grid-item:hover {
+      border-color: #58a6ff;
+    }
+    .grid-item h3 {
+      font-size: 1.15rem;
+      color: var(--text-bright);
+      margin-bottom: 8px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .grid-item p {
+      font-size: 0.92rem;
+      color: #8b949e;
+    }
+    footer {
+      border-top: 1px solid var(--border);
+      padding-top: 30px;
+      margin-top: 20px;
+      font-size: 0.85rem;
+      color: #6e7681;
+    }
+    footer a {
+      color: #58a6ff;
+      text-decoration: none;
+    }
+    footer a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <div class="badge">⚡ SUB-SECOND TELECOM INTELLIGENCE</div>
+    <h1>Fresh NumChecker<span class="gradient-text">™</span></h1>
+    <p class="lead">
+      India's premier high-speed Zero-OTP mobile number hygiene validation gateway. 
+      Sub-second (<350ms) passive verification, DoT National Numbering Plan carrier filters, and DPDP Act 2023 zero-retention privacy.
+    </p>
+
+    <div class="btn-group">
+      <a href="https://t.me/freshnumcheckerbot" class="btn btn-primary" target="_blank" rel="noopener">
+        <span>🚀 Launch Telegram Bot</span>
+      </a>
+      <a href="https://github.com/punit-20/FreshNumberChecker" class="btn btn-secondary" target="_blank" rel="noopener">
+        <span>🐙 View on GitHub</span>
+      </a>
+      <a href="https://github.com/punit-20/FreshNumberChecker/blob/main/TERMS_OF_SERVICE.md" class="btn btn-secondary" target="_blank" rel="noopener">
+        <span>⚖️ Legal Shield</span>
+      </a>
+    </div>
+
+    <!-- Live Terminal Preview -->
+    <div class="terminal-card">
+      <div class="terminal-dots">
+        <span class="dot dot-red"></span>
+        <span class="dot dot-yellow"></span>
+        <span class="dot dot-green"></span>
+        <span style="color: #8b949e; font-size: 0.8rem; margin-left: 10px;">fresh-numchecker-edge — zsh — 80×24</span>
+      </div>
+      <div><span style="color: #00FF66;">$</span> numchecker probe +919876543210 --silent</div>
+      <div style="color: #8b949e;">[✓] DoT National Numbering Plan Series: <span style="color: #00FF66;">VALID ACTIVE MOBILE</span></div>
+      <div style="color: #8b949e;">[✓] Telecom Operator & Circle: <span style="color: #58a6ff;">Bharti Airtel • Delhi NCR</span></div>
+      <div style="color: #8b949e;">[✓] Asynchronous Passive Verification: <span style="color: #00FF66;">PASSED in 284ms</span></div>
+      <div style="margin-top: 10px; color: #bc8cff;">─────────────────────────────────────────────────────────────────</div>
+      <div>📱 <b>Target Number</b> : +91 98765 43210</div>
+      <div>📍 <b>Carrier Circle</b>: Delhi NCR (DL) • Bharti Airtel</div>
+      <div>🛡️ <b>Audit Verdict</b> : <span style="background: rgba(0,255,102,0.2); color: #00FF66; padding: 2px 6px; border-radius: 4px;">🟢 FRESH NUMBER (Clean / Available)</span></div>
+      <div>⚡ <b>Latency Time</b>  : <b>284ms</b> (Sub-second)</div>
+      <div>🔒 <b>Data Logging</b>  : <b>0 Seconds</b> (RAM Ephemeral Purged)</div>
+      <div style="color: #bc8cff;">─────────────────────────────────────────────────────────────────</div>
+    </div>
+
+    <!-- Features Grid -->
+    <div class="grid">
+      <div class="grid-item">
+        <h3>⚡ Sub-Second Verification</h3>
+        <p>Asynchronous multi-gateway concurrency engine delivering real-time status in under 350 milliseconds.</p>
+      </div>
+      <div class="grid-item">
+        <h3>🛡️ DoT Security Layer</h3>
+        <p>Validates all numbers against the official Department of Telecommunications National Numbering Plan (NNP).</p>
+      </div>
+      <div class="grid-item">
+        <h3>📡 All 22 Telecom Circles</h3>
+        <p>Comprehensive coverage across Reliance Jio, Bharti Airtel, Vodafone Idea (Vi), and BSNL/MTNL.</p>
+      </div>
+      <div class="grid-item">
+        <h3>🔒 DPDP Act 2023 Compliant</h3>
+        <p>Zero numbers logged, saved, or sold. All queries processed strictly inside volatile ephemeral server memory.</p>
+      </div>
+    </div>
+
+    <footer>
+      <p>
+        © 2026 Fresh NumChecker Inc. All Rights Reserved.<br/>
+        Protected under the Indian Copyright Act, 1957, Information Technology Act, 2000 & DPDP Act, 2023.<br/>
+        <a href="https://github.com/punit-20/FreshNumberChecker">GitHub Repository</a> • 
+        <a href="https://t.me/freshnumcheckerbot">Telegram Bot (@freshnumcheckerbot)</a> • 
+        <a href="https://github.com/punit-20/FreshNumberChecker/blob/main/PRIVACY_POLICY.md">Privacy Policy</a> • 
+        <a href="https://github.com/punit-20/FreshNumberChecker/blob/main/TERMS_OF_SERVICE.md">Terms of Service</a>
+      </p>
+    </footer>
+
+  </div>
+
+</body>
+</html>

@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://punit-20.github.io/FreshNumberChecker/sitemap.xml
