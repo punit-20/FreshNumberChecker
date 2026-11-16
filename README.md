@@ -19,6 +19,7 @@
 </p>
 
 [![Gateway Status](https://img.shields.io/badge/Gateway_Status-ONLINE_%7C_99.99%25_SLA-00FF66?style=for-the-badge&logo=statuspage&logoColor=black)](https://github.com/punit-20/FreshNumberChecker)
+[![Web Portal](https://img.shields.io/badge/Render_Cloud-ONLINE_%7C_Live_Portal-46E3B7?style=for-the-badge&logo=render&logoColor=black)](https://numchecker-d9a0.onrender.com/)
 [![Core Engine](https://img.shields.io/badge/Core_Engine-DoT_Security_Mesh_v2.4-7928CA?style=for-the-badge&logo=fastapi&logoColor=white)](https://github.com/punit-20/FreshNumberChecker)
 [![Latency](https://img.shields.io/badge/Response_Speed-%3C350ms_Sub--Second-0070F3?style=for-the-badge&logo=speedtest&logoColor=white)](https://github.com/punit-20/FreshNumberChecker)
 [![Coverage](https://img.shields.io/badge/Telecom_Coverage-All_22_Circles_(India)-FF9933?style=for-the-badge&logo=target&logoColor=white)](https://github.com/punit-20/FreshNumberChecker)
@@ -27,7 +28,7 @@
 
 ---
 
-[⚡ Quick Start](#-quick-start) • [✨ Key Capabilities](#-key-capabilities) • [🏆 Benchmarks vs Other Services](#-benchmarks-numchecker-vs-other-services) • [🧠 System Architecture](#-system-architecture) • [❓ FAQ](#-frequently-asked-questions) • [📜 Legal Shield](#-enterprise-legal-shield--compliance)
+[🌐 Live Web Portal](https://numchecker-d9a0.onrender.com/) • [⚡ Quick Start](#-quick-start) • [✨ Key Capabilities](#-key-capabilities) • [🏆 Benchmarks vs Other Services](#-benchmarks-numchecker-vs-other-services) • [🧠 System Architecture](#-system-architecture) • [❓ FAQ](#-frequently-asked-questions) • [📜 Legal Shield](#-enterprise-legal-shield--compliance)
 
 ---
 
