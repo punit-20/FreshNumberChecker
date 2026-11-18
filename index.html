@@ -1,309 +1,854 @@
 <!DOCTYPE html>
-<html lang="en">
+<html class="dark" lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover"/>
+  <title>FreshNumChecker - Instant Telecom Intelligence & Mobile Verification</title>
+  <meta name="description" content="Sub-second operator routing, telecom circle tracing, format sanitization, and automated multi-thread batch validation straight through your encrypted Telegram Cloud Bot."/>
+  <link rel="canonical" href="https://numchecker-d9a0.onrender.com/"/>
+  <meta name="keywords" content="fresh number checker, indian mobile number checker, zero otp verification, check number freshness, speedzchecker alternative, telegram number checker bot, telecom circle filter, jio airtel vi fresh number"/>
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"/>
   
-  <!-- Primary SEO Meta Tags -->
-  <title>Fresh NumChecker™ | India's #1 Zero-OTP Telecom Intelligence & Verification Gateway</title>
-  <meta name="title" content="Fresh NumChecker™ | India's #1 Zero-OTP Telecom Intelligence & Verification Gateway">
-  <meta name="description" content="Sub-second (<350ms) Zero-OTP mobile number hygiene, DoT carrier security filtering across all 22 Indian telecom circles (Reliance Jio, Bharti Airtel, Vi, BSNL). DPDP Act 2023 compliant.">
-  <meta name="keywords" content="fresh number checker, zero otp verification, indian mobile number validator, telegram checker bot, dot carrier filter, hlr lookup india, airtel jio vi bsnl, phone hygiene">
-  <meta name="robots" content="index, follow">
-  <meta name="language" content="English">
-  <meta name="author" content="Fresh NumChecker Inc.">
-  <link rel="canonical" href="https://punit-20.github.io/FreshNumberChecker/">
-
-  <!-- Open Graph / Facebook / WhatsApp -->
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="https://punit-20.github.io/FreshNumberChecker/">
-  <meta property="og:title" content="Fresh NumChecker™ | India's #1 Zero-OTP Telecom Intelligence">
-  <meta property="og:description" content="Sub-second (<350ms) passive verification for Indian mobile numbers without intrusive SMS OTPs. 100% DPDP Act 2023 compliant.">
-  <meta property="og:image" content="https://raw.githubusercontent.com/punit-20/FreshNumberChecker/main/assets/github_social_preview.jpg">
-
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website"/>
+  <meta property="og:url" content="https://numchecker-d9a0.onrender.com/"/>
+  <meta property="og:title" content="Fresh Number Checker - Zero-OTP Indian Mobile Verification"/>
+  <meta property="og:description" content="Instant zero-OTP mobile number freshness verification across all 22 DoT circles in India. 100% ephemeral in-memory processing."/>
+  <meta property="og:image" content="https://raw.githubusercontent.com/punit-20/FreshNumberChecker/main/assets/github_social_preview.jpg"/>
+  
   <!-- Twitter Card -->
-  <meta property="twitter:card" content="summary_large_image">
-  <meta property="twitter:url" content="https://punit-20.github.io/FreshNumberChecker/">
-  <meta property="twitter:title" content="Fresh NumChecker™ | India's #1 Zero-OTP Telecom Intelligence">
-  <meta property="twitter:description" content="Verify mobile number freshness without sending OTPs. All 22 Indian circles supported.">
-  <meta property="twitter:image" content="https://raw.githubusercontent.com/punit-20/FreshNumberChecker/main/assets/github_social_preview.jpg">
+  <meta name="twitter:card" content="summary_large_image"/>
+  <meta name="twitter:url" content="https://numchecker-d9a0.onrender.com/"/>
+  <meta name="twitter:title" content="Fresh Number Checker - Zero-OTP Indian Mobile Verification"/>
+  <meta name="twitter:description" content="Instant zero-OTP mobile number freshness verification across all 22 DoT circles in India. 100% ephemeral in-memory processing."/>
+  <meta name="twitter:image" content="https://raw.githubusercontent.com/punit-20/FreshNumberChecker/main/assets/github_social_preview.jpg"/>
 
-  <!-- Schema.org JSON-LD Structured Data for Google Rich Snippets -->
+  <!-- Schema.org JSON-LD Structured Data for Google Rich Snippets & FAQs -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "SoftwareApplication",
-    "name": "Fresh NumChecker",
-    "operatingSystem": "Telegram, Web, Cloud API",
-    "applicationCategory": "UtilitiesApplication",
-    "description": "Zero-OTP passive mobile number verification and DoT telecom carrier filter for Indian mobile subscribers across all 22 circles.",
-    "aggregateRating": {
-      "@type": "AggregateRating",
-      "ratingValue": "4.9",
-      "ratingCount": "1840",
-      "bestRating": "5"
-    },
-    "offers": {
-      "@type": "Offer",
-      "price": "0",
-      "priceCurrency": "INR"
-    },
-    "author": {
-      "@type": "Organization",
-      "name": "Fresh NumChecker Inc."
-    }
+    "@graph": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "Fresh Number Checker",
+        "operatingSystem": "Telegram, Web, Cloud API",
+        "applicationCategory": "BusinessApplication",
+        "description": "Zero-OTP passive mobile number verification and DoT telecom carrier filter for Indian mobile subscribers across all 22 circles.",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "INR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "1840",
+          "bestRating": "5"
+        }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What is Fresh Number Checker?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Fresh Number Checker is a zero-OTP passive verification platform for Indian mobile numbers (+91) across 22 DoT circles."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Does Fresh Number Checker send an OTP to the user?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "No. Fresh Number Checker operates with zero OTPs dispatched to the physical handset, ensuring complete passive non-intrusive checking."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is Fresh Number Checker compliant with DPDP Act 2023?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes, it uses 100% ephemeral in-memory processing with zero permanent storage of phone numbers or contact books."
+            }
+          }
+        ]
+      }
+    ]
   }
   </script>
-
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@600;700;800&family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&display=swap"/>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@600;700;800&family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&display=swap" rel="stylesheet" media="print" onload="this.media='all'"/>
+  <noscript>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@600;700;800&family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&display=swap" rel="stylesheet"/>
+  </noscript>
+  
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          colors: {
+            surface: "#070b12",
+            primary: "#10b981",
+            secondary: "#38bdf8",
+            accent: "#7bd0ff"
+          },
+          fontFamily: {
+            sans: ["Plus Jakarta Sans", "Inter", "sans-serif"],
+            mono: ["JetBrains Mono", "monospace"]
+          }
+        }
+      }
+    };
+  </script>
+  
   <style>
-    :root {
-      --bg: #0d1117;
-      --card-bg: #161b22;
-      --border: #30363d;
-      --primary: #00FF66;
-      --accent: #58a6ff;
-      --purple: #bc8cff;
-      --text: #c9d1d9;
-      --text-bright: #ffffff;
+    html, body {
+      background-color: #05080f;
+      color: #e2e8f0;
+      font-family: 'Plus Jakarta Sans', -apple-system, sans-serif;
+      overflow-x: hidden;
+      scroll-behavior: smooth;
     }
-    * { box-sizing: border-box; margin: 0; padding: 0; }
-    body {
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-      background-color: var(--bg);
-      color: var(--text);
-      line-height: 1.6;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      min-height: 100vh;
-      padding: 40px 20px;
+    .neon-glow-primary {
+      box-shadow: 0 0 24px rgba(16, 185, 129, 0.35);
     }
-    .container {
-      max-width: 900px;
-      width: 100%;
-      text-align: center;
-    }
-    .badge {
-      display: inline-block;
-      padding: 6px 14px;
-      font-size: 0.85rem;
-      font-weight: 700;
-      border-radius: 20px;
-      background: rgba(0, 255, 102, 0.1);
-      color: var(--primary);
-      border: 1px solid var(--primary);
-      margin-bottom: 20px;
-      letter-spacing: 0.5px;
-    }
-    h1 {
-      font-size: 2.8rem;
-      font-weight: 800;
-      color: var(--text-bright);
-      margin-bottom: 15px;
-      line-height: 1.2;
-    }
-    .gradient-text {
-      background: linear-gradient(90deg, #00FF66, #58a6ff, #bc8cff);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-    }
-    p.lead {
-      font-size: 1.25rem;
-      color: #8b949e;
-      margin-bottom: 35px;
-      max-width: 720px;
-      margin-left: auto;
-      margin-right: auto;
-    }
-    .btn-group {
-      display: flex;
-      gap: 16px;
-      justify-content: center;
-      flex-wrap: wrap;
-      margin-bottom: 50px;
-    }
-    .btn {
-      display: inline-flex;
-      align-items: center;
-      gap: 10px;
-      padding: 14px 28px;
-      font-size: 1.05rem;
-      font-weight: 600;
-      border-radius: 8px;
-      text-decoration: none;
-      transition: all 0.2s ease-in-out;
-    }
-    .btn-primary {
-      background-color: #238636;
-      color: #ffffff;
-      border: 1px solid rgba(255, 255, 255, 0.1);
-    }
-    .btn-primary:hover {
-      background-color: #2ea043;
-      transform: translateY(-2px);
-      box-shadow: 0 4px 12px rgba(46, 160, 67, 0.4);
-    }
-    .btn-secondary {
-      background-color: var(--card-bg);
-      color: var(--text-bright);
-      border: 1px solid var(--border);
-    }
-    .btn-secondary:hover {
-      background-color: #21262d;
-      border-color: #8b949e;
-      transform: translateY(-2px);
+    .neon-glow-cyan {
+      box-shadow: 0 0 24px rgba(56, 189, 248, 0.25);
     }
     .terminal-card {
-      background: #090d13;
-      border: 1px solid var(--border);
-      border-radius: 12px;
-      padding: 24px;
-      text-align: left;
-      font-family: "Fira Code", monospace;
-      font-size: 0.92rem;
-      color: #e6edf3;
-      box-shadow: 0 10px 30px rgba(0,0,0,0.5);
-      margin-bottom: 45px;
-      overflow-x: auto;
+      background: #0b111e;
+      border: 1px solid #1e293b;
+      box-shadow: 0 20px 45px -10px rgba(0, 0, 0, 0.7);
     }
-    .terminal-dots {
-      display: flex;
-      gap: 8px;
-      margin-bottom: 16px;
-      border-bottom: 1px solid #21262d;
-      padding-bottom: 12px;
+    .keyboard-btn {
+      background: #111a2e;
+      border: 1px solid #1e2e4a;
+      transition: all 0.15s ease;
     }
-    .dot {
-      width: 12px;
-      height: 12px;
-      border-radius: 50%;
+    .keyboard-btn:hover {
+      background: #182642;
+      border-color: #38bdf8;
+      color: #38bdf8;
+      transform: translateY(-1px);
     }
-    .dot-red { background: #ff5f56; }
-    .dot-yellow { background: #ffbd2e; }
-    .dot-green { background: #27c93f; }
-    .grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-      gap: 20px;
-      text-align: left;
-      margin-bottom: 50px;
+    .keyboard-btn.active {
+      background: #10b981;
+      border-color: #10b981;
+      color: #042f1f;
+      font-weight: 700;
     }
-    .grid-item {
-      background: var(--card-bg);
-      border: 1px solid var(--border);
-      border-radius: 10px;
-      padding: 24px;
-      transition: border-color 0.2s;
+
+    /* ================= SCROLL REVEAL ANIMATIONS (APPLE & SAAS STYLE) ================= */
+    .reveal-on-scroll {
+      opacity: 0;
+      transform: translateY(50px);
+      filter: blur(8px);
+      transition: opacity 0.85s cubic-bezier(0.16, 1, 0.3, 1), 
+                  transform 0.85s cubic-bezier(0.16, 1, 0.3, 1), 
+                  filter 0.85s cubic-bezier(0.16, 1, 0.3, 1);
+      will-change: opacity, transform, filter;
     }
-    .grid-item:hover {
-      border-color: #58a6ff;
+    .reveal-on-scroll.is-visible {
+      opacity: 1 !important;
+      transform: translateY(0) !important;
+      filter: blur(0) !important;
     }
-    .grid-item h3 {
-      font-size: 1.15rem;
-      color: var(--text-bright);
-      margin-bottom: 8px;
-      display: flex;
-      align-items: center;
-      gap: 8px;
+    
+    .delay-100 { transition-delay: 100ms; }
+    .delay-200 { transition-delay: 200ms; }
+    .delay-300 { transition-delay: 300ms; }
+    .delay-400 { transition-delay: 400ms; }
+
+    /* Subtle floating breathing animation for mockup */
+    @keyframes subtleFloat {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-5px); }
     }
-    .grid-item p {
-      font-size: 0.92rem;
-      color: #8b949e;
+    .float-subtle {
+      animation: subtleFloat 6s ease-in-out infinite;
     }
-    footer {
-      border-top: 1px solid var(--border);
-      padding-top: 30px;
-      margin-top: 20px;
-      font-size: 0.85rem;
-      color: #6e7681;
+
+    /* Initial hero reveal on load */
+    @keyframes heroFadeUp {
+      from {
+        opacity: 0;
+        transform: translateY(30px);
+        filter: blur(6px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+        filter: blur(0);
+      }
     }
-    footer a {
-      color: #58a6ff;
-      text-decoration: none;
+    .animate-hero-left {
+      animation: heroFadeUp 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards;
     }
-    footer a:hover {
-      text-decoration: underline;
+    .animate-hero-right {
+      animation: heroFadeUp 1s cubic-bezier(0.16, 1, 0.3, 1) 0.15s both;
+    }
+
+    ::-webkit-scrollbar {
+      width: 6px;
+      height: 6px;
+    }
+    ::-webkit-scrollbar-track {
+      background: #090d16;
+    }
+    ::-webkit-scrollbar-thumb {
+      background: #1e293b;
+      border-radius: 9999px;
     }
   </style>
 </head>
-<body>
+<body class="selection:bg-primary selection:text-black min-h-screen py-3 sm:py-6 px-2 sm:px-4 flex flex-col items-center">
 
-  <div class="container">
-    <div class="badge">⚡ SUB-SECOND TELECOM INTELLIGENCE</div>
-    <h1>Fresh NumChecker<span class="gradient-text">™</span></h1>
-    <p class="lead">
-      India's premier high-speed Zero-OTP mobile number hygiene validation gateway. 
-      Sub-second (<350ms) passive verification, DoT National Numbering Plan carrier filters, and DPDP Act 2023 zero-retention privacy.
-    </p>
+  <!-- Ambient Glow -->
+  <div class="fixed top-0 left-1/4 w-[450px] h-[450px] bg-emerald-500/10 rounded-full blur-[150px] pointer-events-none"></div>
+  <div class="fixed top-24 right-10 w-[450px] h-[450px] bg-cyan-500/10 rounded-full blur-[150px] pointer-events-none"></div>
 
-    <div class="btn-group">
-      <a href="https://t.me/freshnumcheckerbot" class="btn btn-primary" target="_blank" rel="noopener">
-        <span>🚀 Launch Telegram Bot</span>
-      </a>
-      <a href="https://numchecker-d9a0.onrender.com/" class="btn btn-secondary" target="_blank" rel="noopener">
-        <span>🌐 Live Cloud Portal</span>
-      </a>
-      <a href="https://github.com/punit-20/FreshNumberChecker" class="btn btn-secondary" target="_blank" rel="noopener">
-        <span>🐙 View on GitHub</span>
-      </a>
-      <a href="https://github.com/punit-20/FreshNumberChecker/blob/main/TERMS_OF_SERVICE.md" class="btn btn-secondary" target="_blank" rel="noopener">
-        <span>⚖️ Legal Shield</span>
-      </a>
-    </div>
+  <!-- OUTER MASTER CONTAINER FRAME (MATCHING SCREENSHOT 2 APPARATUS) -->
+  <div class="w-full max-w-[1400px] bg-[#090e18] border border-slate-700/50 rounded-[24px] sm:rounded-[32px] p-4 sm:p-7 shadow-2xl relative">
 
-    <!-- Live Terminal Preview -->
-    <div class="terminal-card">
-      <div class="terminal-dots">
-        <span class="dot dot-red"></span>
-        <span class="dot dot-yellow"></span>
-        <span class="dot dot-green"></span>
-        <span style="color: #8b949e; font-size: 0.8rem; margin-left: 10px;">fresh-numchecker-edge — zsh — 80×24</span>
+    <!-- 1. HEADER (CLEAN BRANDED NAVBAR) -->
+    <header class="flex items-center justify-between pb-5 sm:pb-6 border-b border-slate-800/80">
+      
+      <!-- Left: Logo & Version Badge -->
+      <div class="flex items-center gap-3">
+        <a href="/" class="flex items-center gap-2.5">
+          <div class="w-9 h-9 rounded-xl bg-gradient-to-br from-primary/20 to-secondary/20 border border-primary/40 flex items-center justify-center p-1.5 shadow-sm">
+            <img src="/bot_icon.jpg" alt="Logo" width="36" height="36" class="w-full h-full object-cover rounded-lg" onerror="this.src='/bot_icon.jpg'"/>
+          </div>
+          <span class="text-white font-bold text-lg sm:text-xl tracking-tight">FreshNumChecker</span>
+        </a>
+        <span class="bg-emerald-950/70 border border-emerald-500/40 text-emerald-400 font-mono text-xs font-semibold px-2 py-0.5 rounded-full">v3.4</span>
       </div>
-      <div><span style="color: #00FF66;">$</span> numchecker probe +919876543210 --silent</div>
-      <div style="color: #8b949e;">[✓] DoT National Numbering Plan Series: <span style="color: #00FF66;">VALID ACTIVE MOBILE</span></div>
-      <div style="color: #8b949e;">[✓] Telecom Operator & Circle: <span style="color: #58a6ff;">Bharti Airtel • Delhi NCR</span></div>
-      <div style="color: #8b949e;">[✓] Asynchronous Passive Verification: <span style="color: #00FF66;">PASSED in 284ms</span></div>
-      <div style="margin-top: 10px; color: #bc8cff;">─────────────────────────────────────────────────────────────────</div>
-      <div>📱 <b>Target Number</b> : +91 98765 43210</div>
-      <div>📍 <b>Carrier Circle</b>: Delhi NCR (DL) • Bharti Airtel</div>
-      <div>🛡️ <b>Audit Verdict</b> : <span style="background: rgba(0,255,102,0.2); color: #00FF66; padding: 2px 6px; border-radius: 4px;">🟢 FRESH NUMBER (Clean / Available)</span></div>
-      <div>⚡ <b>Latency Time</b>  : <b>284ms</b> (Sub-second)</div>
-      <div>🔒 <b>Data Logging</b>  : <b>0 Seconds</b> (RAM Ephemeral Purged)</div>
-      <div style="color: #bc8cff;">─────────────────────────────────────────────────────────────────</div>
-    </div>
 
-    <!-- Features Grid -->
-    <div class="grid">
-      <div class="grid-item">
-        <h3>⚡ Sub-Second Verification</h3>
-        <p>Asynchronous multi-gateway concurrency engine delivering real-time status in under 350 milliseconds.</p>
-      </div>
-      <div class="grid-item">
-        <h3>🛡️ DoT Security Layer</h3>
-        <p>Validates all numbers against the official Department of Telecommunications National Numbering Plan (NNP).</p>
-      </div>
-      <div class="grid-item">
-        <h3>📡 All 22 Telecom Circles</h3>
-        <p>Comprehensive coverage across Reliance Jio, Bharti Airtel, Vodafone Idea (Vi), and BSNL/MTNL.</p>
-      </div>
-      <div class="grid-item">
-        <h3>🔒 DPDP Act 2023 Compliant</h3>
-        <p>Zero numbers logged, saved, or sold. All queries processed strictly inside volatile ephemeral server memory.</p>
-      </div>
-    </div>
+      <!-- Right: Online Telemetry & CTA -->
+      <div class="flex items-center gap-3">
+        <!-- Live Cluster Status -->
+        <div class="hidden sm:flex items-center gap-2 bg-[#0d1627] border border-[#1e293b] rounded-full px-3 py-1.5 text-xs font-mono">
+          <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
+          <span class="text-slate-400">Cloud Bot:</span>
+          <span class="text-emerald-400 font-bold">99.9% Online</span>
+          <span class="text-slate-600">•</span>
+          <span class="text-cyan-400">0.16s</span>
+        </div>
 
-    <footer>
-      <p>
-        © 2026 Fresh NumChecker Inc. All Rights Reserved.<br/>
-        Protected under the Indian Copyright Act, 1957, Information Technology Act, 2000 & DPDP Act, 2023.<br/>
-        <a href="https://github.com/punit-20/FreshNumberChecker">GitHub Repository</a> • 
-        <a href="https://t.me/freshnumcheckerbot">Telegram Bot (@freshnumcheckerbot)</a> • 
-        <a href="https://github.com/punit-20/FreshNumberChecker/blob/main/PRIVACY_POLICY.md">Privacy Policy</a> • 
-        <a href="https://github.com/punit-20/FreshNumberChecker/blob/main/TERMS_OF_SERVICE.md">Terms of Service</a>
-      </p>
+        <!-- GitHub Docs Link -->
+        <a href="https://github.com/punit-20/FreshNumberChecker" target="_blank" rel="noopener noreferrer"
+           class="hidden sm:flex items-center gap-1.5 bg-[#0d1627] hover:bg-[#1e293b] border border-slate-700/60 text-slate-300 hover:text-white font-mono text-xs px-3.5 py-2.5 rounded-full transition-all">
+          <svg class="w-4 h-4" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+          <span>GitHub Docs</span>
+        </a>
+
+        <!-- Launch Button -->
+        <a href="https://t.me/freshnumcheckerbot" target="_blank" rel="noopener noreferrer"
+           class="bg-emerald-400 hover:bg-emerald-300 text-slate-950 font-bold text-xs sm:text-sm px-4 sm:px-5 py-2 sm:py-2.5 rounded-full flex items-center gap-2 neon-glow-primary active:scale-95 transition-all">
+          <svg class="w-4 h-4" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm4.64 6.8c-.15 1.58-.8 5.42-1.13 7.19-.14.75-.42 1-.68 1.03-.58.05-1.02-.38-1.58-.75-.88-.58-1.38-.94-2.23-1.5-.99-.65-.35-1.01.22-1.59.15-.15 2.71-2.48 2.76-2.69a.2.2 0 00-.05-.18c-.06-.05-.14-.03-.21-.02-.09.02-1.49.95-4.22 2.79-.4.27-.76.41-1.08.4-.36-.01-1.04-.2-1.55-.37-.63-.2-1.12-.31-1.08-.66.02-.18.27-.36.74-.55 2.92-1.27 4.86-2.11 5.83-2.51 2.78-1.16 3.35-1.36 3.73-1.36.08 0 .27.02.39.12.1.08.13.19.14.27-.01.06.01.24 0 .38z"/></svg>
+          <span>Launch Bot on Telegram</span>
+          <span class="text-xs">↗</span>
+        </a>
+      </div>
+    </header>
+
+    <!-- MAIN LANDMARK FOR ACCESSIBILITY -->
+    <main id="main-content">
+
+    <!-- 2. HERO SECTION: 2-COLUMN DESKTOP HERO (PIXEL-PERFECT REPLICA) -->
+    <section id="hero" class="pt-6 sm:pt-8 grid grid-cols-1 lg:grid-cols-12 gap-7 lg:gap-8 items-start">
+      
+      <!-- ================= LEFT COLUMN: HERO CONTENT ================= -->
+      <div class="lg:col-span-6 flex flex-col gap-4 sm:gap-5 animate-hero-left">
+        
+        <!-- Category Pill Badge -->
+        <div class="inline-flex items-center gap-2 self-start bg-emerald-950/50 border border-emerald-500/40 text-emerald-400 font-mono text-xs font-semibold px-3 py-1 rounded-full shadow-sm">
+          <span class="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-ping"></span>
+          <span>● REAL-TIME TELECOM CARRIER & NUMBER INTELLIGENCE</span>
+        </div>
+
+        <!-- Headline -->
+        <h1 class="text-3xl sm:text-4xl lg:text-[46px] font-extrabold text-white leading-[1.12] tracking-tight">
+          Instant Telecom<br/>
+          Intelligence<br/>
+          <span class="bg-gradient-to-r from-emerald-400 via-cyan-400 to-sky-300 bg-clip-text text-transparent">
+            & Mobile Verification
+          </span>
+        </h1>
+
+        <!-- Subtitle Paragraph -->
+        <p class="text-slate-400 text-sm sm:text-base leading-relaxed max-w-xl">
+          Sub-second operator routing, telecom circle tracing, format sanitization, and automated multi-thread batch validation straight through your encrypted Telegram Cloud Bot.
+        </p>
+
+        <!-- CTA Action Buttons -->
+        <div class="flex flex-col sm:flex-row items-stretch sm:items-center gap-3 pt-1">
+          <a href="https://t.me/freshnumcheckerbot" target="_blank" rel="noopener noreferrer"
+             class="bg-emerald-400 hover:bg-emerald-300 text-slate-950 font-bold text-sm sm:text-base px-6 py-3 rounded-full flex items-center justify-center gap-2 neon-glow-primary active:scale-95 transition-all">
+            <svg class="w-4 h-4" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm4.64 6.8c-.15 1.58-.8 5.42-1.13 7.19-.14.75-.42 1-.68 1.03-.58.05-1.02-.38-1.58-.75-.88-.58-1.38-.94-2.23-1.5-.99-.65-.35-1.01.22-1.59.15-.15 2.71-2.48 2.76-2.69a.2.2 0 00-.05-.18c-.06-.05-.14-.03-.21-.02-.09.02-1.49.95-4.22 2.79-.4.27-.76.41-1.08.4-.36-.01-1.04-.2-1.55-.37-.63-.2-1.12-.31-1.08-.66.02-.18.27-.36.74-.55 2.92-1.27 4.86-2.11 5.83-2.51 2.78-1.16 3.35-1.36 3.73-1.36.08 0 .27.02.39.12.1.08.13.19.14.27-.01.06.01.24 0 .38z"/></svg>
+            <span>Launch Bot (@freshnumcheckerbot)</span>
+            <span class="text-xs">↗</span>
+          </a>
+
+          <a href="#pricing"
+             class="bg-[#121c2e] hover:bg-[#1a273e] border border-slate-700/60 text-slate-200 font-semibold text-sm sm:text-base px-5 py-3 rounded-full flex items-center justify-center gap-1.5 active:scale-95 transition-all">
+            <span>View Pricing Plans (₹49+)</span>
+            <span class="text-xs">↓</span>
+          </a>
+        </div>
+
+        <!-- Trust Badges Checklist -->
+        <div class="flex flex-wrap items-center gap-x-4 gap-y-1.5 text-xs text-slate-300 font-medium pt-0.5">
+          <div class="flex items-center gap-1.5">
+            <span class="text-emerald-400">✓</span>
+            <span>Zero App Install Required</span>
+          </div>
+          <div class="flex items-center gap-1.5">
+            <span class="text-cyan-400">⚡</span>
+            <span>Instant Automated UPI Credit</span>
+          </div>
+          <div class="flex items-center gap-1.5">
+            <span class="text-purple-400">🔒</span>
+            <span>24/7 Cloud Cluster Engine</span>
+          </div>
+        </div>
+
+        <!-- Node Mesh Status Card -->
+        <div class="mt-1 bg-[#0d1524] border border-[#1e2e4a] rounded-2xl p-3.5 flex items-center justify-between shadow-lg">
+          <div class="flex items-center gap-3">
+            <div class="w-9 h-9 rounded-xl bg-cyan-950/60 border border-cyan-500/30 flex items-center justify-center text-cyan-400">
+              <span class="material-symbols-outlined text-[18px]">hub</span>
+            </div>
+            <div>
+              <div class="text-white font-bold text-xs sm:text-sm">Tier-1 Telecom Node Mesh</div>
+              <div class="text-slate-400 text-[11px] font-mono">Jio • Airtel • Vi • BSNL National Registry</div>
+            </div>
+          </div>
+          <div class="text-right">
+            <span class="bg-emerald-950/70 border border-emerald-500/40 text-emerald-400 font-mono text-[9px] font-bold px-2 py-0.5 rounded uppercase">ACTIVE</span>
+            <div class="text-slate-400 font-mono text-[10px] mt-0.5">0.20ms internal ping</div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- ================= RIGHT COLUMN: TELEGRAM TERMINAL MOCKUP ================= -->
+      <div class="lg:col-span-6 terminal-card rounded-2xl p-3.5 sm:p-4 flex flex-col gap-2.5 shadow-2xl relative animate-hero-right float-subtle" id="how-it-works">
+        
+        <!-- Top Window Bar (3 macOS dots) -->
+        <div class="flex items-center justify-between pb-2 border-b border-slate-800">
+          <div class="flex items-center gap-1.5">
+            <span class="w-2.5 h-2.5 rounded-full bg-red-500/80"></span>
+            <span class="w-2.5 h-2.5 rounded-full bg-yellow-500/80"></span>
+            <span class="w-2.5 h-2.5 rounded-full bg-emerald-500/80"></span>
+            <span class="ml-2 font-mono text-[11px] text-slate-400 font-medium">Telegram Mesh v3.4</span>
+          </div>
+          <span class="bg-emerald-950/80 border border-emerald-500/40 text-emerald-400 text-[9px] font-mono font-bold px-1.5 py-0.5 rounded uppercase tracking-wider">LIVE MESH</span>
+        </div>
+
+        <!-- Bot Identity Bar -->
+        <div class="bg-[#10192b] border border-slate-800/80 rounded-lg p-2.5 flex items-center justify-between">
+          <div class="flex items-center gap-2">
+            <img src="/bot_icon.jpg" alt="Bot Avatar" width="28" height="28" class="w-7 h-7 rounded-full object-cover ring-2 ring-emerald-500/30" onerror="this.src='/bot_icon.jpg'"/>
+            <div>
+              <div class="flex items-center gap-1">
+                <span class="text-white font-bold text-xs">FreshNumChecker Bot</span>
+                <span class="text-cyan-400 text-[10px]">✓</span>
+              </div>
+              <div class="text-slate-300 text-[10px] font-mono">@freshnumcheckerbot</div>
+            </div>
+          </div>
+          <span class="bg-[#182640] text-slate-300 text-[9px] font-mono px-2 py-0.5 rounded">TELEGRAM BOT</span>
+        </div>
+
+        <!-- Service Picker Ribbon -->
+        <div class="flex items-center justify-between text-[11px]">
+          <span class="text-cyan-400 font-bold font-mono text-[10px]">SELECT CHECKER (20 SERVICES AVAILABLE)</span>
+          <span class="bg-emerald-950 text-emerald-400 text-[9px] font-mono px-1.5 py-0.5 rounded border border-emerald-500/30">OTP / FRESH AUDIT</span>
+        </div>
+
+        <!-- Quick pill row -->
+        <div class="flex items-center gap-1.5 overflow-x-auto pb-0.5 text-[10px] font-mono text-slate-300 no-scrollbar">
+          <span class="px-2 py-0.5 rounded bg-emerald-500/20 text-emerald-300 border border-emerald-500/30">Gosats</span>
+          <span class="px-2 py-0.5 rounded bg-[#131d30] border border-slate-800">Bigbasket</span>
+          <span class="px-2 py-0.5 rounded bg-[#131d30] border border-slate-800">Meesho</span>
+          <span class="px-2 py-0.5 rounded bg-[#131d30] border border-slate-800">Plutos</span>
+          <span class="px-2 py-0.5 rounded bg-[#131d30] border border-slate-800">Starexch</span>
+          <span class="px-2 py-0.5 rounded bg-[#131d30] border border-slate-800">Swiggy</span>
+          <span class="px-2 py-0.5 rounded bg-[#131d30] border border-slate-800">Flipkart</span>
+        </div>
+
+        <!-- Chat Stream: User Command Bubble -->
+        <div class="flex justify-end">
+          <div class="bg-emerald-500 text-slate-950 font-mono text-xs font-bold px-3 py-1.5 rounded-xl rounded-tr-none shadow-md flex items-center gap-2">
+            <span id="demo-user-query">/check +91 98765 43210</span>
+            <span class="text-[9px] text-slate-900 font-normal">17:41 ✓✓</span>
+          </div>
+        </div>
+
+        <!-- Chat Stream: Bot Response Card -->
+        <div class="bg-[#0f172a] border border-slate-800 rounded-xl p-2.5 flex flex-col gap-2 shadow-lg font-mono text-xs">
+          
+          <!-- Card Header -->
+          <div class="flex items-center justify-between pb-1.5 border-b border-slate-800">
+            <div class="flex items-center gap-1.5 text-cyan-400 font-bold text-[11px]">
+              <span class="material-symbols-outlined text-[14px]">verified</span>
+              <span>TELECOM AUDIT & SERVICE VERIFICATION</span>
+            </div>
+            <span class="bg-emerald-950/80 border border-emerald-500/40 text-emerald-400 text-[9px] px-1.5 py-0.5 rounded font-bold">● AUTHENTICATED</span>
+          </div>
+
+          <!-- Phone Number Line -->
+          <div class="text-slate-300 text-[10px]" id="demo-msisdn">
+            MSISDN: +91 98765 43210 • #FC-8924
+          </div>
+
+          <!-- 4-Box Telemetry Matrix -->
+          <div class="grid grid-cols-2 gap-1.5 text-[10px]">
+            <div class="bg-[#131e33] p-1.5 rounded border border-slate-700">
+              <span class="text-slate-300 block uppercase text-[8px] font-semibold tracking-wider">CARRIER</span>
+              <span class="text-emerald-400 font-bold" id="demo-carrier">Airtel (5G Ready)</span>
+            </div>
+            <div class="bg-[#131e33] p-1.5 rounded border border-slate-700">
+              <span class="text-slate-300 block uppercase text-[8px] font-semibold tracking-wider">CIRCLE</span>
+              <span class="text-slate-100 font-bold" id="demo-circle">Delhi NCR (Metro)</span>
+            </div>
+            <div class="bg-[#131e33] p-1.5 rounded border border-slate-700">
+              <span class="text-slate-300 block uppercase text-[8px] font-semibold tracking-wider">LINE TYPE</span>
+              <span class="text-slate-100 font-bold" id="demo-line">Mobile (GSM Route)</span>
+            </div>
+            <div class="bg-[#131e33] p-1.5 rounded border border-slate-700">
+              <span class="text-slate-300 block uppercase text-[8px] font-semibold tracking-wider">MNP STATUS</span>
+              <span class="text-cyan-400 font-bold" id="demo-mnp">Original Operator</span>
+            </div>
+          </div>
+
+          <!-- Service Availability Matrix -->
+          <div class="bg-[#0b1220] p-2 rounded border border-slate-800/80 flex flex-col gap-1.5">
+            <div class="flex items-center justify-between text-[9px] text-slate-300">
+              <span class="text-cyan-400 font-bold">SERVICE AVAILABILITY & OTP/ACCOUNT MATRIX</span>
+              <span id="active-checker-label" class="text-slate-200">Checker: Gosats</span>
+            </div>
+            <div class="grid grid-cols-3 gap-1 text-[9px]">
+              <div class="bg-[#121c2e] px-1.5 py-0.5 rounded text-emerald-400 font-medium">Gosats: ✓ Registered</div>
+              <div class="bg-[#121c2e] px-1.5 py-0.5 rounded text-cyan-400 font-medium">Amazon: ● Bound</div>
+              <div class="bg-[#121c2e] px-1.5 py-0.5 rounded text-sky-400 font-medium">Flipkart: Active</div>
+              <div class="bg-[#121c2e] px-1.5 py-0.5 rounded text-emerald-400 font-medium">Swiggy: ⚡ OTP OK</div>
+              <div class="bg-[#121c2e] px-1.5 py-0.5 rounded text-cyan-400 font-medium">Meesho: ✓ Linked</div>
+              <div class="bg-[#121c2e] px-1.5 py-0.5 rounded text-emerald-400 font-medium">UPI/VPA: @Verified</div>
+            </div>
+          </div>
+
+          <!-- Meta Footnote -->
+          <div class="flex items-center justify-between text-[9px] text-slate-300 pt-0.5 font-medium">
+            <span class="text-emerald-400">● Latency: 0.28s</span>
+            <span>Telegram Bot v3.4</span>
+            <span class="font-mono">Hash: a8f9...32bc</span>
+          </div>
+
+        </div>
+
+        <!-- 20-SERVICES INLINE KEYBOARD (4x5 GRID) -->
+        <div class="flex flex-col gap-1.5 pt-0.5 font-mono text-xs">
+          <div class="flex items-center justify-between text-[10px] text-slate-400">
+            <div class="flex items-center gap-1">
+              <span class="material-symbols-outlined text-[13px] text-cyan-400">grid_view</span>
+              <span>Select Checker (Inline Bot Keyboard)</span>
+            </div>
+            <span>17:41</span>
+          </div>
+
+          <!-- 4x5 Services Grid -->
+          <div class="grid grid-cols-4 gap-1 text-[10px] text-center font-medium">
+            <button onclick="selectService(this, 'Gosats')" class="keyboard-btn active py-1 rounded">Gosats</button>
+            <button onclick="selectService(this, 'Bigbasket')" class="keyboard-btn py-1 rounded text-slate-200">Bigbasket</button>
+            <button onclick="selectService(this, 'Meesho')" class="keyboard-btn py-1 rounded text-slate-200">Meesho</button>
+            <button onclick="selectService(this, 'Plutos')" class="keyboard-btn py-1 rounded text-slate-200">Plutos</button>
+
+            <button onclick="selectService(this, 'Starexch')" class="keyboard-btn py-1 rounded text-slate-200">Starexch</button>
+            <button onclick="selectService(this, 'Swiggy')" class="keyboard-btn py-1 rounded text-slate-200">Swiggy</button>
+            <button onclick="selectService(this, 'Flipkart')" class="keyboard-btn py-1 rounded text-slate-200">Flipkart</button>
+            <button onclick="selectService(this, 'Shein')" class="keyboard-btn py-1 rounded text-slate-200">Shein</button>
+
+            <button onclick="selectService(this, 'Oyo')" class="keyboard-btn py-1 rounded text-slate-200">Oyo</button>
+            <button onclick="selectService(this, 'Mantrimall')" class="keyboard-btn py-1 rounded text-slate-200">Mantrimall</button>
+            <button onclick="selectService(this, 'Blinkit')" class="keyboard-btn py-1 rounded text-slate-200">Blinkit</button>
+            <button onclick="selectService(this, 'Brevistay')" class="keyboard-btn py-1 rounded text-slate-200">Brevistay</button>
+
+            <button onclick="selectService(this, 'Ajio')" class="keyboard-btn py-1 rounded text-slate-200">Ajio</button>
+            <button onclick="selectService(this, 'Amazon')" class="keyboard-btn py-1 rounded text-slate-200">Amazon</button>
+            <button onclick="selectService(this, 'MyJio')" class="keyboard-btn py-1 rounded text-slate-200">MyJio</button>
+            <button onclick="selectService(this, 'CrownIt')" class="keyboard-btn py-1 rounded text-slate-200">CrownIt</button>
+
+            <button onclick="selectService(this, 'HabitYoga')" class="keyboard-btn py-1 rounded text-slate-200">HabitYoga</button>
+            <button onclick="selectService(this, 'Lenskart')" class="keyboard-btn py-1 rounded text-slate-200">Lenskart</button>
+            <button onclick="selectService(this, 'Operator')" class="keyboard-btn py-1 rounded text-slate-200">Operator</button>
+            <button onclick="selectService(this, 'Myntra')" class="keyboard-btn py-1 rounded text-slate-200">Myntra</button>
+          </div>
+
+          <!-- Bottom Prompt Inside Mockup -->
+          <div class="flex items-center justify-between pt-1">
+            <span class="text-[10px] text-slate-400">Tap to send queries directly in Telegram</span>
+            <a href="https://t.me/freshnumcheckerbot" target="_blank" class="bg-emerald-400 hover:bg-emerald-300 text-slate-950 font-bold px-2.5 py-0.5 rounded-full text-[10px] flex items-center gap-1">
+              <span>TRY IN TELEGRAM</span>
+              <span>↗</span>
+            </a>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+  </div>
+  <!-- END OF MASTER HERO FRAME -->
+
+  <!-- REST OF PAGE (SCROLL-TRIGGERED ANIMATED CARDS BELOW THE FOLD) -->
+  <div class="w-full max-w-[1400px] px-2 sm:px-4">
+
+    <!-- 3. PERFORMANCE & TRUST METRICS BAR -->
+    <section class="mt-14 grid grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-4" id="features">
+      <div class="reveal-on-scroll delay-100 bg-[#090e18] border border-slate-800 p-4 rounded-2xl flex flex-col gap-1 shadow-sm">
+        <div class="flex items-center justify-between">
+          <span class="material-symbols-outlined text-cyan-400 text-[20px]">speed</span>
+          <span class="text-emerald-400 font-mono text-[9px] font-bold uppercase tracking-wider">SUB-SEC</span>
+        </div>
+        <span class="text-2xl sm:text-3xl font-extrabold text-white font-mono">&lt; 1.2s</span>
+        <span class="text-slate-400 text-xs">Telecom Query Latency</span>
+      </div>
+
+      <div class="reveal-on-scroll delay-200 bg-[#090e18] border border-slate-800 p-4 rounded-2xl flex flex-col gap-1 shadow-sm">
+        <div class="flex items-center justify-between">
+          <span class="material-symbols-outlined text-emerald-400 text-[20px]">verified</span>
+          <span class="text-emerald-400 font-mono text-[9px] font-bold uppercase tracking-wider">SLA</span>
+        </div>
+        <span class="text-2xl sm:text-3xl font-extrabold text-white font-mono">99.9%</span>
+        <span class="text-slate-400 text-xs">Cluster Uptime Guaranteed</span>
+      </div>
+
+      <div class="reveal-on-scroll delay-300 bg-[#090e18] border border-slate-800 p-4 rounded-2xl flex flex-col gap-1 shadow-sm">
+        <div class="flex items-center justify-between">
+          <span class="material-symbols-outlined text-cyan-400 text-[20px]">qr_code_2</span>
+          <span class="text-cyan-400 font-mono text-[9px] font-bold uppercase tracking-wider">UPI</span>
+        </div>
+        <span class="text-2xl sm:text-3xl font-extrabold text-white font-mono">100%</span>
+        <span class="text-slate-400 text-xs">Automated UPI Credit</span>
+      </div>
+
+      <div class="reveal-on-scroll delay-400 bg-[#090e18] border border-slate-800 p-4 rounded-2xl flex flex-col gap-1 shadow-sm">
+        <div class="flex items-center justify-between">
+          <span class="material-symbols-outlined text-emerald-400 text-[20px]">cloud_sync</span>
+          <span class="text-emerald-400 font-mono text-[9px] font-bold uppercase tracking-wider">24/7</span>
+        </div>
+        <span class="text-2xl sm:text-3xl font-extrabold text-white font-mono">Telegram</span>
+        <span class="text-slate-400 text-xs">Always-on Bot Network</span>
+      </div>
+    </section>
+
+    <!-- 4. TRANSPARENT PRICING GRID -->
+    <section class="mt-20 flex flex-col gap-6" id="pricing">
+      <div class="reveal-on-scroll text-center max-w-xl mx-auto flex flex-col gap-1.5">
+        <div class="inline-flex items-center justify-center gap-1.5 text-emerald-400 font-mono text-xs font-bold uppercase tracking-wider">
+          <span class="material-symbols-outlined text-[16px]">payments</span>
+          <span>TRANSPARENT PRICING IN INR</span>
+        </div>
+        <h2 class="text-2xl sm:text-3xl font-extrabold text-white tracking-tight">
+          Simple, Transparent Pay-As-You-Go Credits
+        </h2>
+        <p class="text-slate-400 text-xs sm:text-sm">
+          No hidden subscriptions. Instant credit delivery via UPI directly into your Telegram bot balance.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-5">
+        
+        <!-- Starter Pack -->
+        <div class="reveal-on-scroll delay-100 bg-[#090e18] border border-slate-800 rounded-2xl p-5 sm:p-6 flex flex-col gap-4 shadow-lg hover:border-slate-700 transition-all">
+          <div class="flex items-center justify-between">
+            <span class="text-white font-bold text-base">Starter Pack</span>
+            <span class="bg-[#182438] text-slate-300 font-mono text-xs px-2 py-0.5 rounded-full">Entry Pass</span>
+          </div>
+          <div>
+            <div class="flex items-baseline gap-1">
+              <span class="text-3xl font-extrabold text-white">₹49</span>
+              <span class="text-slate-400 text-xs">/ one-time</span>
+            </div>
+            <div class="text-emerald-400 font-mono text-xs font-semibold mt-1">100 Checks (₹0.49/lookup)</div>
+          </div>
+          <ul class="flex flex-col gap-2 text-xs sm:text-sm text-slate-300 border-t border-slate-800 pt-3 flex-1">
+            <li class="flex items-center gap-2"><span class="text-emerald-400">✓</span><span>365 Days Credit Validity</span></li>
+            <li class="flex items-center gap-2"><span class="text-emerald-400">✓</span><span>Basic Telecom & Circle Detection</span></li>
+            <li class="flex items-center gap-2"><span class="text-emerald-400">✓</span><span>Standard Speed Telegram Gateway</span></li>
+          </ul>
+          <a href="https://t.me/freshnumcheckerbot?start=pack_49" target="_blank"
+             class="bg-[#16233a] hover:bg-[#1e2f4e] text-white font-bold py-2.5 rounded-xl text-center text-xs sm:text-sm transition-colors">
+            Select Starter Pack ↗
+          </a>
+        </div>
+
+        <!-- Pro Pack -->
+        <div class="reveal-on-scroll delay-200 bg-[#0e1726] border-2 border-emerald-500/80 rounded-2xl p-5 sm:p-6 flex flex-col gap-4 shadow-2xl relative neon-glow-primary hover:border-emerald-400 transition-all">
+          <div class="absolute -top-3 right-6 bg-emerald-400 text-slate-950 font-bold font-mono text-[10px] uppercase px-2.5 py-0.5 rounded-full shadow">
+            MOST POPULAR
+          </div>
+          <div class="flex items-center justify-between">
+            <span class="text-white font-bold text-base">Pro Pack</span>
+            <span class="text-emerald-400 font-mono text-xs">Best Value</span>
+          </div>
+          <div>
+            <div class="flex items-baseline gap-1">
+              <span class="text-3xl font-extrabold text-emerald-400">₹199</span>
+              <span class="text-slate-400 text-xs">/ one-time</span>
+            </div>
+            <div class="text-cyan-400 font-mono text-xs font-semibold mt-1">500 Checks (₹0.39/lookup)</div>
+          </div>
+          <ul class="flex flex-col gap-2 text-xs sm:text-sm text-slate-200 border-t border-slate-800 pt-3 flex-1">
+            <li class="flex items-center gap-2"><span class="text-emerald-400">✓</span><span>Bulk Query Pipeline Access</span></li>
+            <li class="flex items-center gap-2"><span class="text-emerald-400">✓</span><span>Priority Engine Speed (&lt;0.5s Latency)</span></li>
+            <li class="flex items-center gap-2"><span class="text-emerald-400">✓</span><span>Full MNP Portability Insights</span></li>
+            <li class="flex items-center gap-2"><span class="text-emerald-400">✓</span><span>Exportable CSV Report Files</span></li>
+          </ul>
+          <a href="https://t.me/freshnumcheckerbot?start=pack_199" target="_blank"
+             class="bg-emerald-400 hover:bg-emerald-300 text-slate-950 font-extrabold py-3 rounded-xl text-center text-xs sm:text-sm neon-glow-primary transition-all">
+            Get Pro Pack (Instant UPI) ↗
+          </a>
+        </div>
+
+        <!-- VIP Unlimited Pass -->
+        <div class="reveal-on-scroll delay-300 bg-[#090e18] border border-slate-800 rounded-2xl p-5 sm:p-6 flex flex-col gap-4 shadow-lg hover:border-slate-700 transition-all">
+          <div class="flex items-center justify-between">
+            <span class="text-white font-bold text-base">VIP Unlimited Pass</span>
+            <span class="bg-cyan-950/70 border border-cyan-500/30 text-cyan-400 font-mono text-xs px-2 py-0.5 rounded-full">High Volume</span>
+          </div>
+          <div>
+            <div class="flex items-baseline gap-1">
+              <span class="text-3xl font-extrabold text-white">₹499</span>
+              <span class="text-slate-400 text-xs">/ 30 days</span>
+            </div>
+            <div class="text-cyan-400 font-mono text-xs font-semibold mt-1">Unlimited Daily Verification</div>
+          </div>
+          <ul class="flex flex-col gap-2 text-xs sm:text-sm text-slate-300 border-t border-slate-800 pt-3 flex-1">
+            <li class="flex items-center gap-2"><span class="text-emerald-400">✓</span><span>Unlimited Daily Lookups</span></li>
+            <li class="flex items-center gap-2"><span class="text-emerald-400">✓</span><span>Zero Cooldown Delay Between Queries</span></li>
+            <li class="flex items-center gap-2"><span class="text-emerald-400">✓</span><span>VIP Telegram Golden Badge</span></li>
+            <li class="flex items-center gap-2"><span class="text-emerald-400">✓</span><span>Dedicated Admin Priority Support Desk</span></li>
+          </ul>
+          <a href="https://t.me/freshnumcheckerbot?start=pack_499" target="_blank"
+             class="bg-[#16233a] hover:bg-[#1e2f4e] text-cyan-400 font-bold py-2.5 rounded-xl text-center text-xs sm:text-sm transition-colors">
+            Claim VIP Access ↗
+          </a>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- 5. COMPLIANCE & LEGAL POLICIES DRAWER -->
+    <section class="mt-20 flex flex-col gap-5" id="compliance">
+      <div class="reveal-on-scroll flex flex-col gap-1">
+        <div class="flex items-center gap-2 text-emerald-400 font-mono text-xs font-bold uppercase tracking-wider">
+          <span class="material-symbols-outlined text-[16px]">account_balance</span>
+          <span>PAYMENT & REGULATORY FRAMEWORK</span>
+        </div>
+        <h2 class="text-xl sm:text-2xl font-extrabold text-white tracking-tight">
+          Compliance Ledger & Platform Policies
+        </h2>
+        <p class="text-slate-400 text-xs sm:text-sm">
+          Fully structured in compliance with Indian IT Act 2000, DPDP Act 2023, and payment aggregator guidelines.
+        </p>
+      </div>
+
+      <!-- Compliance Tabs Ribbon -->
+      <div class="reveal-on-scroll delay-100 flex items-center gap-2 overflow-x-auto pb-2 border-b border-slate-800">
+        <button id="btn-tab-about" onclick="switchTab('about')" class="px-3.5 py-1.5 rounded-full font-mono text-xs font-bold bg-emerald-400 text-slate-950 transition-all shrink-0">About Platform</button>
+        <button id="btn-tab-terms" onclick="switchTab('terms')" class="px-3.5 py-1.5 rounded-full font-mono text-xs font-semibold bg-[#121c2e] text-slate-400 hover:text-white transition-all shrink-0">Terms of Service</button>
+        <button id="btn-tab-privacy" onclick="switchTab('privacy')" class="px-3.5 py-1.5 rounded-full font-mono text-xs font-semibold bg-[#121c2e] text-slate-400 hover:text-white transition-all shrink-0">Privacy Policy</button>
+        <button id="btn-tab-refund" onclick="switchTab('refund')" class="px-3.5 py-1.5 rounded-full font-mono text-xs font-semibold bg-[#121c2e] text-slate-400 hover:text-white transition-all shrink-0">Refund & Cancellation</button>
+        <button id="btn-tab-shipping" onclick="switchTab('shipping')" class="px-3.5 py-1.5 rounded-full font-mono text-xs font-semibold bg-[#121c2e] text-slate-400 hover:text-white transition-all shrink-0">Shipping & Delivery</button>
+        <button id="btn-tab-support" onclick="switchTab('support')" class="px-3.5 py-1.5 rounded-full font-mono text-xs font-semibold bg-[#121c2e] text-slate-400 hover:text-white transition-all shrink-0">Customer Support</button>
+      </div>
+
+      <!-- Tab Panes -->
+      <div class="reveal-on-scroll delay-200 bg-[#090e18] border border-slate-800 rounded-2xl p-5 sm:p-6 min-h-[140px] text-xs sm:text-sm text-slate-300 leading-relaxed shadow-lg">
+        
+        <div id="pane-about" class="flex flex-col gap-2.5">
+          <div class="text-emerald-400 font-bold text-sm sm:text-base flex items-center gap-2">
+            <span class="material-symbols-outlined text-[18px]">info</span>
+            <span>About FreshNumChecker</span>
+          </div>
+          <p>
+            FreshNumChecker is a specialized cloud telecom intelligence utility created for developers, cybersecurity teams, customer verification agents, and risk officers. Operating via Telegram automation, the platform validates mobile phone routing status, identifies telecommunication circles, and confirms live carrier validity in real-time.
+          </p>
+        </div>
+
+        <div id="pane-terms" class="hidden flex flex-col gap-2.5">
+          <div class="text-emerald-400 font-bold text-sm sm:text-base flex items-center gap-2">
+            <span class="material-symbols-outlined text-[18px]">gavel</span>
+            <span>Terms of Service</span>
+          </div>
+          <p>
+            FreshNumChecker is intended strictly for lawful verification, routing optimization, and authentication assurance. Any use for automated spamming, harassment, unlawful stalking, or unauthorized data profiling is strictly prohibited. Use of our services constitutes compliance with the Indian Information Technology Act, 2000 and any applicable local regulations.
+          </p>
+        </div>
+
+        <div id="pane-privacy" class="hidden flex flex-col gap-2.5">
+          <div class="text-emerald-400 font-bold text-sm sm:text-base flex items-center gap-2">
+            <span class="material-symbols-outlined text-[18px]">lock</span>
+            <span>Privacy & Data Governance</span>
+          </div>
+          <p>
+            Fully aligned with India's Digital Personal Data Protection (DPDP) Act 2023. We do not extract address books, capture personal identifiers, or preserve query records in permanent databases. All queries are resolved via transient stateless requests and discarded immediately following delivery of the report.
+          </p>
+        </div>
+
+        <div id="pane-refund" class="hidden flex flex-col gap-2.5">
+          <div class="text-emerald-400 font-bold text-sm sm:text-base flex items-center gap-2">
+            <span class="material-symbols-outlined text-[18px]">currency_exchange</span>
+            <span>Refund & Cancellation Policy</span>
+          </div>
+          <p>
+            In cases where automated UPI payment was debited but credits were not loaded due to banking delays, our automated reconciliation engine executes an automatic rollback or credit addition within 24-48 hours. Users may initiate a refund inquiry via the bot's <code class="text-cyan-400 font-mono">/support</code> command. Eligible refunds are refunded to the source UPI account within 3-5 business days.
+          </p>
+        </div>
+
+        <div id="pane-shipping" class="hidden flex flex-col gap-2.5">
+          <div class="text-emerald-400 font-bold text-sm sm:text-base flex items-center gap-2">
+            <span class="material-symbols-outlined text-[18px]">local_shipping</span>
+            <span>Shipping & Delivery Policy</span>
+          </div>
+          <p>
+            All services and lookup credits delivered by FreshNumChecker are 100% digital cloud services. No physical shipment is required or provided. Purchased query packs and VIP memberships are provisioned instantly inside the Telegram bot account (&lt;2 seconds) after confirmation of the UPI transaction webhook.
+          </p>
+        </div>
+
+        <div id="pane-support" class="hidden flex flex-col gap-2.5">
+          <div class="text-emerald-400 font-bold text-sm sm:text-base flex items-center gap-2">
+            <span class="material-symbols-outlined text-[18px]">headset_mic</span>
+            <span>Customer Support Desk</span>
+          </div>
+          <p>
+            Need immediate support with an order or query? Reach out directly via Telegram to our dedicated support bot interface using the command <code class="text-cyan-400 font-mono">/support</code>, or direct message our verified helpdesk channel. Turnaround time for payment and query disputes is guaranteed under 24 hours.
+          </p>
+        </div>
+
+      </div>
+    </section>
+
+    </main>
+
+    <!-- 6. FOOTER -->
+    <footer class="reveal-on-scroll mt-16 pt-6 pb-10 border-t border-slate-800/80 flex flex-col gap-3 text-xs text-slate-400 font-mono" id="support">
+      <div class="flex flex-col sm:flex-row items-center justify-between gap-3">
+        <div class="flex items-center gap-2">
+          <img src="/bot_icon.jpg" alt="Logo" width="20" height="20" class="w-5 h-5 object-cover rounded" onerror="this.src='/bot_icon.jpg'"/>
+          <span class="text-white font-bold font-sans">FreshNumChecker</span>
+          <span class="text-slate-500">|</span>
+          <span class="text-slate-300">All Telegram Cloud Systems Operational</span>
+        </div>
+        <div class="flex items-center gap-4">
+          <button onclick="scrollToTab('terms')" class="hover:text-emerald-400">Terms</button>
+          <button onclick="scrollToTab('privacy')" class="hover:text-emerald-400">Privacy</button>
+          <button onclick="scrollToTab('refund')" class="hover:text-emerald-400">Refund</button>
+          <button onclick="scrollToTab('support')" class="hover:text-emerald-400">Support</button>
+        </div>
+      </div>
+      <div class="text-slate-400 text-[11px] text-center sm:text-left">
+        © 2026 FreshNumChecker. All rights reserved. Registered under Indian IT Guidelines.
+      </div>
     </footer>
 
   </div>
 
+  <!-- INTERACTIVE LOGIC -->
+  <script>
+    // Tab Switcher for Compliance Drawer
+    function switchTab(tabId) {
+      const tabs = ['about', 'terms', 'privacy', 'refund', 'shipping', 'support'];
+      tabs.forEach(id => {
+        const pane = document.getElementById('pane-' + id);
+        const btn = document.getElementById('btn-tab-' + id);
+        if (id === tabId) {
+          if (pane) pane.classList.remove('hidden');
+          if (btn) {
+            btn.classList.remove('bg-[#121c2e]', 'text-slate-400');
+            btn.classList.add('bg-emerald-400', 'text-slate-950', 'font-bold');
+          }
+        } else {
+          if (pane) pane.classList.add('hidden');
+          if (btn) {
+            btn.classList.add('bg-[#121c2e]', 'text-slate-400');
+            btn.classList.remove('bg-emerald-400', 'text-slate-950', 'font-bold');
+          }
+        }
+      });
+    }
+
+    function scrollToTab(tabId) {
+      switchTab(tabId);
+      const target = document.getElementById('compliance');
+      if (target) {
+        target.scrollIntoView({ behavior: 'smooth' });
+      }
+    }
+
+    // 20-Services Keyboard Interactive Click Simulator
+    function selectService(btn, serviceName) {
+      document.querySelectorAll('.keyboard-btn').forEach(b => {
+        b.classList.remove('active', 'text-slate-950');
+        b.classList.add('text-slate-200');
+      });
+      btn.classList.add('active');
+      btn.classList.remove('text-slate-200');
+
+      document.getElementById('active-checker-label').innerText = 'Checker: ' + serviceName;
+      document.getElementById('demo-user-query').innerText = '/check ' + serviceName + ' +91 98765 43210';
+      
+      const carriers = ['Airtel (5G Ready)', 'Jio 5G True Unlimited', 'Vi GigaNet Turbo', 'BSNL 4G Live'];
+      const circles = ['Delhi NCR (Metro)', 'Mumbai Metro', 'Maharashtra & Goa', 'Karnataka (Bangalore)'];
+      const randomCarrier = carriers[Math.floor(Math.random() * carriers.length)];
+      const randomCircle = circles[Math.floor(Math.random() * circles.length)];
+
+      document.getElementById('demo-carrier').innerText = randomCarrier;
+      document.getElementById('demo-circle').innerText = randomCircle;
+    }
+
+    // Scroll Reveal Intersection Observer
+    document.addEventListener('DOMContentLoaded', () => {
+      const observerOptions = {
+        root: null,
+        rootMargin: '0px 0px -40px 0px',
+        threshold: 0.1
+      };
+
+      const revealObserver = new IntersectionObserver((entries, observer) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('is-visible');
+            observer.unobserve(entry.target);
+          }
+        });
+      }, observerOptions);
+
+      document.querySelectorAll('.reveal-on-scroll').forEach(el => {
+        revealObserver.observe(el);
+      });
+
+      // URL path & hash watcher
+      const path = window.location.pathname.replace('/', '').toLowerCase();
+      const validTabs = ['about', 'terms', 'privacy', 'refund', 'shipping', 'support'];
+      if (validTabs.includes(path)) {
+        scrollToTab(path);
+      } else if (path === 'contact') {
+        scrollToTab('support');
+      }
+    });
+  </script>
 </body>
 </html>
